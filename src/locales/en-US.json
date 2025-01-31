@@ -28,6 +28,16 @@
     "source": "Source Code",
     "title": "Footer"
   },
+  "home": {
+    "community": {
+      "content": "You want to take part in the jams or even help organize them yourself? You don't want to miss anything? You want to chat with like-minded people? Then join the KIT-GameJam Discord Server!",
+      "head": "Join us!",
+      "join": "Join Discord server"
+    },
+    "hero": {
+      "subtitle": "Develop Games. Meet Gread People. All Local At KIT."
+    }
+  },
   "imprint": {
     "contact": "Contact",
     "declaration": "Information according to § 5 TMG",
@@ -37,9 +47,8 @@
   },
   "nav": {
     "about": "About",
-    "articles": "Articles",
-    "projects": "Projects",
-    "wiki": "Wiki"
+    "join": "Join",
+    "schedule": "Schedule"
   },
   "privacy": {
     "cookies": {

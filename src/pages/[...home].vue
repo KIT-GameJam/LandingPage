@@ -13,7 +13,7 @@
         <h2
           class="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-second-700 dark:text-second-300"
         >
-          Entwickle Spiele. Lerne Coole Menschen Kennen. Alles Lokal Am KIT.
+          {{ $t('home.hero.subtitle') }}
         </h2>
       </div>
     </div>
@@ -21,7 +21,7 @@
 
   <LayoutDividerWave rotate />
   <LayoutSection id="schedule" class="bg-second-100 dark:bg-second-900">
-    <LayoutHeading>Schedule</LayoutHeading>
+    <LayoutHeading>{{ $t('nav.schedule') }}</LayoutHeading>
     <div class="mt-12 flex flex-col gap-y-4">
       <CardEvent
         title="Erste KIT GameJam"
@@ -58,8 +58,17 @@
       <CardLink
         :title="$t('home.community.head')"
         :content="$t('home.community.content')"
+        href="https://discord.gg/A6vQ7bPuSp"
       >
-        <span>{{ $t('home.community.join') }}</span>
+        <span class="flex items-center justify-center gap-x-2">
+          <img
+            height="16"
+            width="16"
+            src="/svg/discord.svg"
+            alt="discord_logo"
+          />
+          <span>{{ $t('home.community.join') }}</span>
+        </span>
       </CardLink>
     </div>
   </section>

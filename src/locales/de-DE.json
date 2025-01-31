@@ -28,6 +28,16 @@
     "source": "Quellcode",
     "title": "Footer"
   },
+  "home": {
+    "community": {
+      "content": "Du willst an den Jams teilnehmen oder sogar selbst mitorganisieren? Du möchtest nichts verpassen? Du willst dich mit gleichgesinnten austasuchen? Dann trete dem KIT-GameJam Discord Server bei!",
+      "head": "Mach mit!",
+      "join": "Discord Server beitreten"
+    },
+    "hero": {
+      "subtitle": "Entwickle Spiele. Lerne Coole Menschen Kennen. Alles Lokal Am KIT."
+    }
+  },
   "imprint": {
     "contact": "Kontakt",
     "declaration": "Angaben gemäß § 5 TMG",
@@ -36,7 +46,9 @@
     "title": "Impressum"
   },
   "nav": {
-    "about": "Über"
+    "about": "Über",
+    "join": "Mitmachen",
+    "schedule": "Zeitplan"
   },
   "privacy": {
     "cookies": {

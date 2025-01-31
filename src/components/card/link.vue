@@ -13,7 +13,7 @@
     <a
       class="shadow-xs mx-auto mt-10 flex w-min items-center justify-center gap-x-2 rounded-md bg-white px-12 py-2.5 text-sm font-semibold text-second-900 hover:bg-second-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white xs:w-fit"
       type="button"
-      href="https://chat.whatsapp.com/HF1UyLxp5Yc33L8s5rHFGi"
+      :href="href"
       target="_blank"
     >
       <slot />
@@ -53,6 +53,10 @@ defineProps({
     required: true,
   },
   content: {
+    type: String,
+    required: true,
+  },
+  href: {
     type: String,
     required: true,
   },

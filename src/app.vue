@@ -1,11 +1,14 @@
 <template>
   <Title>KIT GameJam</Title>
-  <Meta name="description" content="Home Page of HSG KIT GameJam" />
+  <Meta
+    name="description"
+    content="KIT GameJam - Develop Games. Meet Gread People. All Local At KIT."
+  />
   <Meta
     name="keywords"
     content="gamejam, gamedev, Hochschulgruppe, KIT, Karlsruhe"
   />
-  <Meta name="theme-color" content="#111827" />
+  <Meta name="theme-color" content="#8b5cf6" />
   <Link
     rel="apple-touch-icon"
     sizes="180x180"
