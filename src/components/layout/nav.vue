@@ -9,7 +9,13 @@
             class="flex items-center justify-center gap-x-4 text-2xl font-bold"
             href="/"
           >
-            <img height="48" width="48" src="/svg/kgj_logo.svg" alt="logo" />
+            <img
+              class="hidden xs:inline-block"
+              height="48"
+              width="48"
+              src="/svg/kgj_logo.svg"
+              alt="logo"
+            />
             <span>
               <span>KIT&nbsp;</span>
               <Accent>GameJam</Accent>
@@ -17,7 +23,7 @@
           </a>
 
           <div
-            class="text-md flex items-center space-x-12 font-medium text-second-700 dark:text-second-300"
+            class="text-md flex hidden items-center space-x-12 font-medium text-second-700 dark:text-second-300 xs:inline"
           >
             <a
               class="hidden rounded-md px-2 py-1 hover:bg-prime-50 dark:hover:bg-prime-950 sm:inline"
