@@ -1,3 +1,3 @@
 <template>
-  <NuxtWelcome />
+  <Section> Blubb </Section>
 </template>

@@ -1,39 +1,30 @@
 <template>
-  <Dropdown
-    :items="[
-      {
-        label: $t('common.theme.light'),
-        callback: () => settings.setTheme('light'),
-        icon: SunIcon,
-      },
-      {
-        label: $t('common.theme.dark'),
-        callback: () => settings.setTheme('dark'),
-        icon: MoonIcon,
-      },
-      {
-        label: $t('common.theme.system'),
-        callback: () => settings.setTheme('system'),
-        icon: ComputerDesktopIcon,
-      },
-    ]"
-  >
-    <SunIcon
+  <div>
+    <button
       v-if="settings.theme === 'light'"
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
-      aria-hidden="true"
-    />
-    <MoonIcon
+      @click="settings.setTheme('dark')"
+    >
+      <SunIcon
+        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        aria-hidden="true"
+      />
+    </button>
+    <button
       v-else-if="settings.theme === 'dark'"
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
-      aria-hidden="true"
-    />
-    <ComputerDesktopIcon
-      v-else
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
-      aria-hidden="true"
-    />
-  </Dropdown>
+      @click="settings.setTheme('system')"
+    >
+      <MoonIcon
+        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        aria-hidden="true"
+      />
+    </button>
+    <button v-else @click="settings.setTheme('light')">
+      <ComputerDesktopIcon
+        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        aria-hidden="true"
+      />
+    </button>
+  </div>
 </template>
 
 <script lang="ts">

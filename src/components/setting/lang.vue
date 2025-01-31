@@ -1,38 +1,36 @@
 <template>
-  <Dropdown
-    :compo="IconFlagDeFunc"
-    :items="[
-      {
-        label: $t('common.lang.de'),
-        callback: () => setLocale('de'),
-        icon: IconFlagDeFunc,
-      },
-      {
-        label: $t('common.lang.en'),
-        callback: () => setLocale('en'),
-        icon: IconFlagUkFunc,
-      },
-    ]"
-  >
-    <IconFlagDe
-      v-if="$i18n.locale === 'de'"
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
-    />
-    <IconFlagUk
-      v-else
-      class="h-5 w-5 text-second-400 group-hover:text-second-500"
-    />
-  </Dropdown>
+  <div>
+    <button v-if="$i18n.locale === 'de'" @click="setLocale('en')">
+      <IconFlagDe
+        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        aria-hidden="true"
+      />
+    </button>
+    <button v-else-if="$i18n.locale === 'en'" @click="setLocale('de')">
+      <IconFlagUk
+        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        aria-hidden="true"
+      />
+    </button>
+  </div>
 </template>
 
 <script lang="ts">
 import { IconFlagDe, IconFlagUk } from '#components';
+import {
+  ComputerDesktopIcon,
+  MoonIcon,
+  SunIcon,
+} from '@heroicons/vue/24/outline';
 
 export default defineComponent({
   name: 'SettingLang',
-  methods: {
-    IconFlagDeFunc: () => IconFlagDe,
-    IconFlagUkFunc: () => IconFlagUk,
+  components: {
+    ComputerDesktopIcon,
+    MoonIcon,
+    SunIcon,
+    IconFlagDe,
+    IconFlagUk,
   },
   setup() {
     return {

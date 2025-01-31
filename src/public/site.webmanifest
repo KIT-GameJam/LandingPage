@@ -1,7 +1,7 @@
 {
-  "name": "Elias Schaut",
-  "short_name": "ES",
-  "start_url": "https://schaut.dev",
+  "name": "KIT GameJam",
+  "short_name": "KIT GameJam",
+  "start_url": "https://gamejam.hsg.kit.edu",
   "icons": [
     {
       "src": "/favicon/android-chrome-192x192.png",
