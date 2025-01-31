@@ -1,18 +1,18 @@
 <template>
   <Body
-    class="bg-second-50 text-secondary-900 dark:text-white selection:bg-prime-100 dark:bg-second-900 dark:selection:bg-prime-900"
+    class="text-secondary-900 bg-second-50 selection:bg-prime-100 dark:bg-second-950 dark:text-white dark:selection:bg-prime-900"
   />
-  <div class="flex flex-col h-screen justify-between">
+  <div class="flex h-screen flex-col justify-between">
     <LayoutNav />
-      <main class="mb-auto">
-        <slot />
-      </main>
+    <main class="mb-auto">
+      <slot />
+    </main>
     <LayoutFooter />
   </div>
 </template>
 
 <style>
 a {
-  @apply hover:underline
+  @apply hover:underline;
 }
 </style>
