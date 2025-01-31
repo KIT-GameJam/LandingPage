@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full overflow-hidden">
+  <div class="w-full overflow-hidden text-second-100 dark:text-second-900">
     <svg
       viewBox="0 0 1200 120"
       preserveAspectRatio="none"
