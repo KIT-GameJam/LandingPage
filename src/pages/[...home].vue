@@ -1,5 +1,6 @@
 <template>
   <LayoutSection id="hero">
+    <EffectBackgroundGradient />
     <div class="flex flex-col items-center justify-center gap-y-14">
       <img src="/svg/kgj_logo.svg" alt="KIT GameJam" height="256" width="256" />
 
@@ -28,6 +29,4 @@
     <LayoutHeading> Join </LayoutHeading>
   </LayoutSection>
 </template>
-<script setup lang="ts">
-import {} from '@heroicons/vue/solid';
-</script>
+<script setup lang="ts"></script>
