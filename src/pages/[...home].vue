@@ -24,30 +24,9 @@
     <LayoutHeading>{{ $t('nav.schedule') }}</LayoutHeading>
     <div class="mt-12 flex flex-col gap-y-4">
       <CardEvent
-        title="Erste KIT GameJam"
-        desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet."
-        date="Erstes Aprilwochenende: Fr. 04.04. - So 06.04."
-      />
-      <CardEvent
-        title="GPN GameJam"
-        desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet."
-        date="GPN Wochenende: 19.06.2025 bis 22.06.2025"
+        :title="$t('home.schedule.events.1.title')"
+        :desc="$t('home.schedule.events.1.desc')"
+        :date="$t('home.schedule.events.1.date')"
       />
     </div>
   </LayoutSection>

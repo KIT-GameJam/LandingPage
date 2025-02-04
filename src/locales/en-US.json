@@ -35,7 +35,16 @@
       "join": "Join Discord server"
     },
     "hero": {
-      "subtitle": "Develop Games. Meet Gread People. All Local At KIT."
+      "subtitle": "Develop Games. Meet Great People. Everything Local At KIT."
+    },
+    "schedule": {
+      "events": {
+        "1": {
+          "date": "First weekend in April: Fri. 04.04. - Sun 06.04.",
+          "desc": "The first KIT GameJam will take place after the exam period on the first weekend in April! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere. More detailed information will follow shortly.",
+          "title": "First KIT GameJam"
+        }
+      }
     }
   },
   "imprint": {

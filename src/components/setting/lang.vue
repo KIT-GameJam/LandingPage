@@ -1,22 +1,25 @@
 <template>
   <div>
     <button v-if="$i18n.locale === 'de'" @click="setLocale('en')">
-      <IconFlagDe
+      <img
+        src="/svg/flags/de.svg"
         class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
         aria-hidden="true"
+        alt="DE"
       />
     </button>
     <button v-else-if="$i18n.locale === 'en'" @click="setLocale('de')">
-      <IconFlagUk
+      <img
+        src="/svg/flags/uk.svg"
         class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
         aria-hidden="true"
+        alt="UK"
       />
     </button>
   </div>
 </template>
 
 <script lang="ts">
-import { IconFlagDe, IconFlagUk } from '#components';
 import {
   ComputerDesktopIcon,
   MoonIcon,
@@ -29,8 +32,6 @@ export default defineComponent({
     ComputerDesktopIcon,
     MoonIcon,
     SunIcon,
-    IconFlagDe,
-    IconFlagUk,
   },
   setup() {
     return {

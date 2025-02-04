@@ -36,6 +36,15 @@
     },
     "hero": {
       "subtitle": "Entwickle Spiele. Lerne Coole Menschen Kennen. Alles Lokal Am KIT."
+    },
+    "schedule": {
+      "events": {
+        "1": {
+          "date": "Erstes Aprilwochenende: Fr. 04.04. - So 06.04.",
+          "desc": "Die erste KIT GameJam findet nach der Klausurenphase am ersten Aprilwochenende statt! Es wird eine offline Jam, inder ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung. Genauere Informationen folgen in Kürze.",
+          "title": "Erste KIT GameJam"
+        }
+      }
     }
   },
   "imprint": {
