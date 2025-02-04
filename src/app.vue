@@ -2,7 +2,7 @@
   <Title>KIT GameJam</Title>
   <Meta
     name="description"
-    content="KIT GameJam - Develop Games. Meet Gread People. All Local At KIT."
+    content="KIT GameJam - Develop Games. Meet Great People. All Local At KIT."
   />
   <Meta
     name="keywords"
