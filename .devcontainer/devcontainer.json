@@ -1,6 +1,6 @@
 {
   "name": "Basic Node.js",
-  "build": { "dockerfile": "Dockerfile" },
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
 
   "forwardPorts": [3000],
 
@@ -12,5 +12,5 @@
     }
   },
 
-  "remoteUser": "node"
+  "remoteUser": "vscode"
 }
