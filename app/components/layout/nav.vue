@@ -31,7 +31,7 @@
             >
             <a
               class="hidden rounded-md px-2 py-1 hover:bg-prime-50 dark:hover:bg-prime-950 sm:inline"
-              href="/#blog"
+              href="/#join"
               >{{ $t('nav.join') }}</a
             >
           </div>

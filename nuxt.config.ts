@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   workspaceDir: '.',
-  srcDir: './src',
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: '2025-08-25',
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/fonts',
@@ -15,10 +14,10 @@ export default defineNuxtConfig({
     'pinia-plugin-persistedstate/nuxt',
   ],
 
-  site: {
-    url: 'https://schaut.dev',
-    name: 'Elias Schaut',
+  typescript: {
+    typeCheck: true,
   },
+
 
   fonts: {
     defaults: {
@@ -35,7 +34,7 @@ export default defineNuxtConfig({
 
   i18n: {
     langDir: 'locales',
-    restructureDir: false,
+    restructureDir: 'app',
     locales: [
       {
         code: 'en',
@@ -58,8 +57,7 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
       fallbackLocale: 'en',
-    },
-    lazy: true,
+    }
   },
 
   colorMode: {
@@ -70,14 +68,10 @@ export default defineNuxtConfig({
   },
 
   tailwindcss: {
-    configPath: 'tailwind.config.ts',
-  },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+    cssPath: "~/assets/css/tailwind.css",
+    config: {},
+    viewer: true,
+    exposeConfig: false,
   },
 
   piniaPluginPersistedstate: {
