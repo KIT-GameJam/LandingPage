@@ -27,6 +27,7 @@
         :title="$t('home.schedule.events.1.title')"
         :desc="$t('home.schedule.events.1.desc')"
         :date="$t('home.schedule.events.1.date')"
+        link="https://itch.io/jam/birne-kit-gamejam"
       />
     </div>
   </LayoutSection>

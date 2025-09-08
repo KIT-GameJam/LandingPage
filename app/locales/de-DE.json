@@ -30,7 +30,7 @@
   },
   "home": {
     "community": {
-      "content": "Du willst an den Jams teilnehmen oder sogar selbst mitorganisieren? Du möchtest nichts verpassen? Du willst dich mit gleichgesinnten austasuchen? Dann trete dem KIT-GameJam Discord Server bei!",
+      "content": "Du willst an den Jams teilnehmen oder sogar selbst mitorganisieren? Du möchtest nichts verpassen? Du willst dich mit Gleichgesinnten austauschen? Dann trete dem KIT-GameJam Discord Server bei!",
       "head": "Mach mit!",
       "join": "Discord Server beitreten"
     },
@@ -41,8 +41,8 @@
       "events": {
         "1": {
           "date": "Mo 13.10. - Mi 15.10.",
-          "desc": "Die zweite KIT GameJam findet nach der Sommer-Klausurenphase im Oktober statt! Es wird eine offline Jam, inder ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung. Genauere Informationen folgen in Kürze.",
-          "title": "Zweite KIT GameJam"
+          "desc": "Die zweite KIT GameJam findet nach der Sommer-Klausurenphase im Oktober statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung. Alle genauen Informationen finden sich in itch.io.",
+          "title": "🍐 Zweite KIT GameJam: BirnenJam"
         }
       }
     }
