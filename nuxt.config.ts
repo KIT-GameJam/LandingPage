@@ -14,10 +14,13 @@ export default defineNuxtConfig({
     'pinia-plugin-persistedstate/nuxt',
   ],
 
+  site: {
+    url: 'https://gamejam.hsg.kit.edu',
+  },
+
   typescript: {
     typeCheck: true,
   },
-
 
   fonts: {
     defaults: {
@@ -57,7 +60,7 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',
       fallbackLocale: 'en',
-    }
+    },
   },
 
   colorMode: {
@@ -68,7 +71,7 @@ export default defineNuxtConfig({
   },
 
   tailwindcss: {
-    cssPath: "~/assets/css/tailwind.css",
+    cssPath: '~/assets/css/tailwind.css',
     config: {},
     viewer: true,
     exposeConfig: false,
@@ -80,5 +83,4 @@ export default defineNuxtConfig({
       maxAge: 60 * 60 * 24 * 30,
     },
   },
-
-})
+});
