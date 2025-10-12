@@ -6,12 +6,12 @@
 
       <div class="text-center">
         <h1
-          class="font-display mx-auto max-w-4xl text-5xl font-medium tracking-tight text-second-900 dark:text-second-100 sm:text-7xl"
+          class="font-display text-second-900 dark:text-second-100 mx-auto max-w-4xl text-5xl font-medium tracking-tight sm:text-7xl"
         >
           KIT GameJam
         </h1>
         <h2
-          class="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-second-700 dark:text-second-300"
+          class="text-second-700 dark:text-second-300 mx-auto mt-6 max-w-2xl text-lg tracking-tight"
         >
           {{ $t('home.hero.subtitle') }}
         </h2>
@@ -33,7 +33,7 @@
   </LayoutSection>
   <LayoutDividerWave />
 
-  <section id="join" class="py-16 sm:py-24">
+  <LayoutSection id="join" class="py-16 sm:py-24">
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <CardLink
         :title="$t('home.community.head')"
@@ -51,5 +51,16 @@
         </span>
       </CardLink>
     </div>
-  </section>
+  </LayoutSection>
+
+  <LayoutSection id="schedule">
+    <LayoutHeading>{{ $t('home.sponsors.title') }}</LayoutHeading>
+    <div class="mt-16 flex items-center justify-center gap-12">
+      <Sponsor link="https://gameforge.com" name="gameforge" has_dark />
+      <Sponsor link="https://energy4u.org/" name="energy4u" has_dark />
+    </div>
+  </LayoutSection>
 </template>
+<script setup lang="ts">
+import Sponsor from '~/components/sponsor.vue';
+</script>
