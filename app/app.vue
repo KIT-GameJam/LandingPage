@@ -1,13 +1,13 @@
 <template>
   <Title>KIT GameJam</Title>
-  <Meta
-    name="description"
-    content="KIT GameJam - Develop Games. Meet Great People. All Local At KIT."
-  />
+  <Meta name="description" content="KIT GameJam - Develop. Play. Meet." />
   <Meta
     name="keywords"
     content="gamejam, gamedev, Hochschulgruppe, KIT, Karlsruhe"
   />
+  <Meta name="og:title" content="KIT GameJam" />
+  <Meta name="og:description" content="KIT GameJam - Develop. Play. Meet." />
+  <Meta name="og:image" content="/og.png" />
   <Meta name="theme-color" content="#8b5cf6" />
   <Link
     rel="apple-touch-icon"
