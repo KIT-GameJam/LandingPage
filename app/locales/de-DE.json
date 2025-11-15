@@ -50,16 +50,21 @@
           "title": "🍎 ApfelJam"
         },
         "1": {
+          "date": "Do 19.06.25 - So 22.06.2025",
+          "desc": "Zu der GPN 23 in Karlsruhe veranstalten wie die Häckerspiele. Komm gerne an unserem Stand vorbei und entwickle ein Microgame. Diese bündeln wir dann zusammen in ein fertiges Spiel.",
+          "title": "📺 Häckerspiele"
+        },
+        "2": {
           "date": "Mo 13.10.25 - Mi 15.10.25",
           "desc": "Die zweite KIT GameJam findet nach der Sommer-Klausurenphase im Oktober statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung.",
           "title": "🍐 BirnenJam"
         },
-        "2": {
+        "3": {
           "date": "In der Woche vom 26.01.2026 bis 01.12.2026",
           "desc": "Wir veranstalten zum ersten Mal eine eigene Global Game Jam Site. Dank der Förderung durch THE LÄND können wir euch viele Angebote kostenlos bereitstellen. Details folgen!",
           "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
         },
-        "3": {
+        "4": {
           "date": "Anfang April 2026",
           "desc": "Die dritte KIT GameJam findet nach der Winter-Klausurenphase im April statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Details folgen!",
           "title": "🍊 ClementinenJam"
@@ -68,7 +73,8 @@
       "past": "Vergangen",
       "register": "Jetzt anmelden ➡",
       "results": "Zu den Ergebnissen",
-      "soon": "Anmeldung in Kürze"
+      "soon": "Anmeldung in Kürze",
+      "view_game": "Zum Spiel"
     },
     "sponsors": {
       "title": "Sponsoren"

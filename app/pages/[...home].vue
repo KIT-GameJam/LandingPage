@@ -31,6 +31,12 @@
       class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3"
     >
       <CardEvent
+        :title="$t('home.schedule.events.5.title')"
+        :desc="$t('home.schedule.events.5.desc')"
+        :date="$t('home.schedule.events.5.date')"
+        past
+      />
+      <CardEvent
         :title="$t('home.schedule.events.3.title')"
         :desc="$t('home.schedule.events.3.desc')"
         :date="$t('home.schedule.events.3.date')"
@@ -39,12 +45,15 @@
         :title="$t('home.schedule.events.2.title')"
         :desc="$t('home.schedule.events.2.desc')"
         :date="$t('home.schedule.events.2.date')"
+        link="https://itch.io/jam/birne-kit-gamejam/results"
+        past
       />
       <CardEvent
         :title="$t('home.schedule.events.1.title')"
         :desc="$t('home.schedule.events.1.desc')"
         :date="$t('home.schedule.events.1.date')"
-        link="https://itch.io/jam/birne-kit-gamejam/results"
+        :button_text="$t('home.schedule.view_game')"
+        link="https://kit-gamejam.itch.io/gpn23-jam"
         past
       />
       <CardEvent
@@ -80,7 +89,9 @@
 
   <LayoutSection id="schedule">
     <LayoutHeading>{{ $t('home.sponsors.title') }}</LayoutHeading>
-    <div class="mt-16 flex items-center justify-center gap-12">
+    <div
+      class="mt-16 flex flex-col items-center justify-center gap-12 md:flex-row"
+    >
       <Sponsor link="https://gameforge.com" name="gameforge" has_dark />
       <Sponsor link="https://energy4u.org/" name="energy4u" has_dark />
     </div>

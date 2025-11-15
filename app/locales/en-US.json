@@ -50,16 +50,21 @@
           "title": "🍎 ApfelJam"
         },
         "1": {
+          "date": "Thu 19.06.25 - Sun 22.06.2025",
+          "desc": "We are organising the Hacker Games at GPN 23 in Karlsruhe. Feel free to stop by our stand and develop a microgame. We will then combine these into a finished game.",
+          "title": "📺 Häckerspiele"
+        },
+        "2": {
           "date": "Mon 13.10.25 - Wed 15.10.25",
           "desc": "The second KIT GameJam will take place after the summer exam period in October! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere.",
           "title": "🍐 BirnenJam"
         },
-        "2": {
+        "3": {
           "date": "In the week from 26 January 2026 to 1 December 2026",
           "desc": "We are organising our own Global Game Jam site for the first time. Thanks to funding from THE LÄND, we can offer you many services free of charge. Details to follow!",
           "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
         },
-        "3": {
+        "4": {
           "date": "Early April 2026",
           "desc": "The third KIT GameJam will take place in April after the winter exam period! It will be an offline jam, in which you will have 48 hours to develop a game after the theme has been announced. Details to follow!",
           "title": "🍊 ClementinenJam"
@@ -68,7 +73,8 @@
       "past": "Past",
       "register": "Register now ➡",
       "results": "View results",
-      "soon": "Register soon"
+      "soon": "Register soon",
+      "view_game": "View game"
     },
     "sponsors": {
       "title": "Sponsors"

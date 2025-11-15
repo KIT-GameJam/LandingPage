@@ -21,11 +21,12 @@
       :href="link"
       target="_blank"
       >{{
-        past ? $t('home.schedule.results') : $t('home.schedule.register')
+        button_text ??
+        (past ? $t('home.schedule.results') : $t('home.schedule.register'))
       }}</ButtonGradient
     >
     <ButtonGradientDisabled v-else class="w-full text-center">{{
-      $t('home.schedule.soon')
+      button_text ?? $t('home.schedule.soon')
     }}</ButtonGradientDisabled>
   </div>
 </template>
@@ -47,6 +48,10 @@ defineProps({
   link: {
     type: String,
     default: '',
+  },
+  button_text: {
+    type: String,
+    default: null,
   },
   past: {
     type: Boolean,
