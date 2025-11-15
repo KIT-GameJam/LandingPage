@@ -58,7 +58,7 @@
   </LayoutSection>
   <LayoutDividerWave />
 
-  <LayoutSection id="join" class="py-16 sm:py-24">
+  <LayoutSection id="join" class="py-16 sm:py-24" no_padding>
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <CardLink
         :title="$t('home.community.head')"
