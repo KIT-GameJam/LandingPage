@@ -1,18 +1,22 @@
 <template>
-  <a :href="link" target="_blank">
+  <a
+    :href="link"
+    target="_blank"
+    class="flex h-[150px] w-[300px] items-center justify-center rounded-3xl transition hover:shadow-2xl"
+  >
     <img
       :src="`/svg/sponsors/${name}.svg`"
       :alt="`${name} logo`"
-      width="512"
-      height="512"
+      width="256"
+      height="256"
       :class="{ 'dark:hidden': has_dark }"
     />
     <img
       v-if="has_dark"
       :src="`/svg/sponsors/${name}-dark.svg`"
       :alt="`${name} logo`"
-      width="512"
-      height="512"
+      width="256"
+      height="256"
       class="hidden dark:block"
     />
   </a>
