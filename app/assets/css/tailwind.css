@@ -34,6 +34,30 @@
     --color-second-800: var(--color-gray-800);
     --color-second-900: var(--color-gray-900);
     --color-second-950: var(--color-gray-950);
+
+    --color-crimson-50: #fff1f1;
+    --color-crimson-100: #ffe4e4;
+    --color-crimson-200: #fecdd0;
+    --color-crimson-300: #fca5aa;
+    --color-crimson-400: #fa727d;
+    --color-crimson-500: #f24154;
+    --color-crimson-600: #d91e3b;
+    --color-crimson-700: #bc1432;
+    --color-crimson-800: #9e1331;
+    --color-crimson-900: #871430;
+    --color-crimson-950: #4b0615;
+
+    --color-violet-eggplant-50: #fcf5fe;
+    --color-violet-eggplant-100: #f8e9fe;
+    --color-violet-eggplant-200: #f1d3fb;
+    --color-violet-eggplant-300: #e9b0f7;
+    --color-violet-eggplant-400: #dc81f1;
+    --color-violet-eggplant-500: #c850e5;
+    --color-violet-eggplant-600: #af30c9;
+    --color-violet-eggplant-700: #9c27b0;
+    --color-violet-eggplant-800: #7a2088;
+    --color-violet-eggplant-900: #661f70;
+    --color-violet-eggplant-950: #42084a;
 }
 
 button {

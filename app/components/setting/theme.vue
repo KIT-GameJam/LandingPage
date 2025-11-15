@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="flex items-center justify-center">
     <button
       v-if="settings.theme === 'light'"
       @click="settings.setTheme('dark')"
     >
       <SunIcon
-        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        class="text-second-600 group-hover:text-second-500 dark:text-second-400 h-6 w-6"
         aria-hidden="true"
       />
     </button>
@@ -14,13 +14,13 @@
       @click="settings.setTheme('system')"
     >
       <MoonIcon
-        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        class="text-second-600 group-hover:text-second-500 dark:text-second-400 h-6 w-6"
         aria-hidden="true"
       />
     </button>
     <button v-else @click="settings.setTheme('light')">
       <ComputerDesktopIcon
-        class="h-6 w-6 text-second-600 group-hover:text-second-500 dark:text-second-400"
+        class="text-second-600 group-hover:text-second-500 dark:text-second-400 h-6 w-6"
         aria-hidden="true"
       />
     </button>

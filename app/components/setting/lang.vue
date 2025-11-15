@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex items-center justify-center">
     <button v-if="$i18n.locale === 'de'" @click="setLocale('en')">
       <img
         src="/svg/flags/uk.svg"

@@ -10,9 +10,3 @@
     <LayoutFooter />
   </div>
 </template>
-
-<style>
-a {
-  @apply hover:underline;
-}
-</style>
