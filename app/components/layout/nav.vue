@@ -15,9 +15,7 @@
               alt="logo"
             />
             <span class="flex flex-col">
-              <span
-                class="from-crimson-600 dark:from-crimson-500 bg-gradient-to-r to-violet-600 bg-clip-text font-bold text-transparent dark:to-violet-500"
-              >
+              <span class="gradient-r bg-clip-text font-bold text-transparent">
                 KIT&nbsp;GameJam
               </span>
               <span
@@ -36,11 +34,7 @@
               href="/#schedule"
               >{{ $t('nav.schedule') }}</a
             >
-            <a
-              class="from-crimson-600 xs:inline hidden rounded-3xl bg-gradient-to-r to-violet-600 px-5 py-2 text-white transition ease-in-out hover:scale-110"
-              href="/#join"
-              >{{ $t('nav.join') }}</a
-            >
+            <ButtonGradient href="/#join">{{ $t('nav.join') }} </ButtonGradient>
           </div>
           <SettingTheme />
           <SettingLang />

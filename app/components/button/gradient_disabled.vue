@@ -1,0 +1,7 @@
+<template>
+  <button
+    class="from-crimson-400 disabled to-violet-eggplant-400 xs:inline hidden rounded-3xl bg-gradient-to-r px-5 py-2 text-white hover:cursor-not-allowed!"
+  >
+    <slot />
+  </button>
+</template>

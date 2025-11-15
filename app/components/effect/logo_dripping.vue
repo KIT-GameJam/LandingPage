@@ -3,14 +3,14 @@
     <div class="inset-0 flex items-center justify-center">
       <div class="relative h-64 w-64">
         <div
-          class="from-crimson-200 dark:from-crimson-800 absolute inset-0 rounded-2xl bg-gradient-to-br to-violet-200 blur-3xl dark:to-violet-800"
+          class="from-crimson-200 dark:from-crimson-800 to-violet-eggplant-200 dark:to-violet-eggplant-800 absolute inset-0 rounded-2xl bg-gradient-to-br blur-3xl"
         ></div>
 
         <div
           class="animate-float-random-slow border-crimson-600 dark:border-crimson-400 absolute -top-12 -left-12 h-24 w-24 rounded-full border-4 opacity-60"
         ></div>
         <div
-          class="animate-float-slow absolute -right-12 -bottom-12 h-32 w-32 rounded-full border-4 border-violet-600 opacity-60 dark:border-violet-400"
+          class="animate-float-slow border-violet-eggplant-600 dark:border-violet-eggplant-400 absolute -right-12 -bottom-12 h-32 w-32 rounded-full border-4 opacity-60"
           :style="{ animationDirection: 'reverse' }"
         ></div>
 
@@ -28,7 +28,7 @@
           class="animate-jam-drip bg-crimson-600 absolute bottom-20 left-1/4 h-4 w-4 rounded-full opacity-80"
         ></div>
         <div
-          class="animate-jam-drip absolute bottom-40 left-1/3 h-3 w-3 rounded-full bg-violet-500 opacity-60"
+          class="animate-jam-drip bg-violet-eggplant-500 absolute bottom-40 left-1/3 h-3 w-3 rounded-full opacity-60"
           :style="{ animationDelay: '0.5s' }"
         ></div>
         <div

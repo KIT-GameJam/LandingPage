@@ -7,7 +7,7 @@
       <div class="flex flex-col items-center justify-center gap-y-14">
         <div class="text-left">
           <h1
-            class="from-crimson-600 dark:from-crimson-500 mx-auto max-w-4xl bg-gradient-to-br to-violet-600 bg-clip-text text-5xl font-semibold tracking-tight text-transparent select-none sm:text-7xl dark:to-violet-500"
+            class="font-fredoka! gradient-br mx-auto max-w-4xl bg-clip-text text-5xl font-semibold tracking-tight text-transparent select-none sm:text-7xl"
           >
             Entwickeln.<br />Spielen.<br />Treffen.
           </h1>
@@ -23,14 +23,31 @@
           </p>
         </div>
       </div>
-      <LogoDripping class="items-center justify-center md:flex" />
+      <EffectLogoDripping class="items-center justify-center md:flex" />
     </div>
   </LayoutSection>
 
   <LayoutDividerWave rotate />
   <LayoutSection id="schedule" class="bg-second-100 dark:bg-second-900">
-    <LayoutHeading>{{ $t('nav.schedule') }}</LayoutHeading>
-    <div class="mt-12 flex flex-col gap-y-4">
+    <LayoutHeading>Events</LayoutHeading>
+    <div class="mt-12 grid grid-cols-3 gap-4">
+      <CardEvent
+        :title="$t('home.schedule.events.1.title')"
+        :desc="$t('home.schedule.events.1.desc')"
+        :date="$t('home.schedule.events.1.date')"
+        link="https://itch.io/jam/birne-kit-gamejam"
+      />
+      <CardEvent
+        :title="$t('home.schedule.events.1.title')"
+        :desc="$t('home.schedule.events.1.desc')"
+        :date="$t('home.schedule.events.1.date')"
+      />
+      <CardEvent
+        :title="$t('home.schedule.events.1.title')"
+        :desc="$t('home.schedule.events.1.desc')"
+        :date="$t('home.schedule.events.1.date')"
+        link="https://itch.io/jam/birne-kit-gamejam"
+      />
       <CardEvent
         :title="$t('home.schedule.events.1.title')"
         :desc="$t('home.schedule.events.1.desc')"
