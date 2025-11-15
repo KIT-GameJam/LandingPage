@@ -10,8 +10,8 @@
             class="font-fredoka! gradient-br mx-auto max-w-4xl bg-clip-text text-5xl font-semibold tracking-tight text-transparent select-none sm:text-7xl"
           >
             {{ $t('home.hero.title.develop') }}<br />
-            {{ $t('home.hero.title.play') }}<br />
-            {{ $t('home.hero.title.meet') }}
+            {{ $t('home.hero.title.meet') }}<br />
+            {{ $t('home.hero.title.play') }}
           </h1>
           <p
             class="text-second-700 dark:text-second-300 mx-auto mt-6 max-w-lg text-lg tracking-tight"

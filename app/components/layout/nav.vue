@@ -34,7 +34,9 @@
               href="/#schedule"
               >{{ $t('nav.schedule') }}</a
             >
-            <ButtonGradient href="/#join">{{ $t('nav.join') }} </ButtonGradient>
+            <ButtonGradient class="xs:inline hidden" href="/#join"
+              >{{ $t('nav.join') }}
+            </ButtonGradient>
           </div>
           <SettingTheme />
           <SettingLang />
