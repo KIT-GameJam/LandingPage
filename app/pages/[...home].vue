@@ -31,9 +31,9 @@
       class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3"
     >
       <CardEvent
-        :title="$t('home.schedule.events.5.title')"
-        :desc="$t('home.schedule.events.5.desc')"
-        :date="$t('home.schedule.events.5.date')"
+        :title="$t('home.schedule.events.4.title')"
+        :desc="$t('home.schedule.events.4.desc')"
+        :date="$t('home.schedule.events.4.date')"
         past
       />
       <CardEvent
