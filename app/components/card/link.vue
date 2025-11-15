@@ -1,17 +1,17 @@
 <template>
   <div
-    class="relative isolate overflow-hidden bg-second-950 px-6 py-24 shadow-2xl dark:bg-second-900 sm:rounded-3xl sm:px-24 xl:py-32"
+    class="bg-second-950 dark:bg-second-900 relative isolate overflow-hidden px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32"
   >
     <h2
-      class="mx-auto max-w-3xl text-center text-4xl font-semibold tracking-tight text-white sm:text-5xl"
+      class="font-fredoka! mx-auto max-w-3xl text-center text-4xl font-semibold text-white sm:text-5xl"
     >
       {{ title }}
     </h2>
-    <p class="mx-auto mt-6 max-w-lg text-center text-lg text-second-300">
+    <p class="text-second-300 mx-auto mt-6 max-w-lg text-center text-lg">
       {{ content }}
     </p>
     <a
-      class="shadow-xs mx-auto mt-10 flex w-min items-center justify-center gap-x-2 rounded-md bg-white px-12 py-2.5 text-sm font-semibold text-second-900 hover:bg-second-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white xs:w-fit"
+      class="text-second-900 hover:bg-second-100 xs:w-fit mx-auto mt-10 flex w-min items-center justify-center gap-x-2 rounded-md bg-white px-12 py-2.5 text-sm font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
       type="button"
       :href="href"
       target="_blank"
@@ -20,7 +20,7 @@
     </a>
     <svg
       viewBox="0 0 1024 1024"
-      class="absolute left-1/2 top-1/2 -z-10 size-[64rem] -translate-x-1/2"
+      class="absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2"
       aria-hidden="true"
     >
       <circle

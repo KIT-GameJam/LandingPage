@@ -6,7 +6,7 @@
       <h3 class="text-2xl font-bold">
         {{ title }}
       </h3>
-      <Badge v-if="past">Vergangen</Badge>
+      <Badge v-if="past">{{ $t('home.schedule.past') }}</Badge>
     </div>
     <p class="text-prime-600 dark:text-prime-400 text-sm font-medium">
       {{ date }}
@@ -20,11 +20,13 @@
       v-if="link"
       :href="link"
       target="_blank"
-      >{{ past ? 'View results' : 'Jetzt anmelden ➡' }}</ButtonGradient
+      >{{
+        past ? $t('home.schedule.results') : $t('home.schedule.register')
+      }}</ButtonGradient
     >
-    <ButtonGradientDisabled v-else class="w-full text-center"
-      >Anmeldung in Kürze</ButtonGradientDisabled
-    >
+    <ButtonGradientDisabled v-else class="w-full text-center">{{
+      $t('home.schedule.soon')
+    }}</ButtonGradientDisabled>
   </div>
 </template>
 

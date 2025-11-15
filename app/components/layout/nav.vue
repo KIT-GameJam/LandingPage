@@ -20,7 +20,7 @@
               </span>
               <span
                 class="text-second-600 dark:text-second-400 text-xs font-medium"
-                >HSG für Spieleentwicklung</span
+                >{{ $t('nav.subtitle') }}</span
               >
             </span>
           </a>

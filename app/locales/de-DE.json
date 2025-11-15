@@ -35,7 +35,12 @@
       "join": "Discord Server beitreten"
     },
     "hero": {
-      "subtitle": "Entwickle Spiele. Lerne Coole Menschen Kennen. Alles Lokal Am KIT."
+      "subtitle": "Als quirlig-kreative Hochschulgruppe lassen wir die Spieleentwicklungskultur an Karlsruher Hochschulen aufleben. Dafür veranstalten wir regelmäßig eigene lokale GameJams für alle, die Lusts aufs Experimentieren, Entwickeln und gemeinschaftliche Tüfteln haben. Dabei spielt es keine Rolle, ob du noch Neuling oder echter Veteran*in bist - bei uns sind alle herzlich willkommen!",
+      "title": {
+        "develop": "Entwickeln.",
+        "meet": "Treffen.",
+        "play": "Spielen."
+      }
     },
     "schedule": {
       "events": {
@@ -51,15 +56,19 @@
         },
         "2": {
           "date": "In der Woche vom 26.01.2026 bis 01.12.2026",
-          "desc": "",
+          "desc": "Wir veranstalten zum ersten Mal eine eigene Global Game Jam Site. Dank der Förderung durch THE LÄND können wir euch viele Angebote kostenlos bereitstellen. Details folgen!",
           "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
         },
         "3": {
           "date": "Anfang April 2026",
-          "desc": "",
+          "desc": "Die dritte KIT GameJam findet nach der Winter-Klausurenphase im April statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Details folgen!",
           "title": "🥭 ClementinenJam"
         }
-      }
+      },
+      "past": "Vergangen",
+      "register": "Jetzt anmelden ➡",
+      "results": "Zu den Ergebnissen",
+      "soon": "Anmeldung in Kürze"
     },
     "sponsors": {
       "title": "Sponsoren"
@@ -75,7 +84,8 @@
   "nav": {
     "about": "Über",
     "join": "Mitmachen",
-    "schedule": "Zeitplan"
+    "schedule": "Events",
+    "subtitle": "HSG für Speileentwicklung"
   },
   "privacy": {
     "cookies": {

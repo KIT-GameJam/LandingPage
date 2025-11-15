@@ -9,17 +9,14 @@
           <h1
             class="font-fredoka! gradient-br mx-auto max-w-4xl bg-clip-text text-5xl font-semibold tracking-tight text-transparent select-none sm:text-7xl"
           >
-            Entwickeln.<br />Spielen.<br />Treffen.
+            {{ $t('home.hero.title.develop') }}<br />
+            {{ $t('home.hero.title.play') }}<br />
+            {{ $t('home.hero.title.meet') }}
           </h1>
           <p
             class="text-second-700 dark:text-second-300 mx-auto mt-6 max-w-lg text-lg tracking-tight"
           >
-            Als quirlig-kreative Hochschulgruppe lassen wir die
-            Spieleentwicklungskultur an Karlsruher Hochschulen aufleben. Dafür
-            veranstalten wir regelmäßig eigene lokale GameJams für alle, die
-            Lusts aufs Experimentieren, Entwickeln und gemeinschaftliche Tüfteln
-            haben. Dabei spielt es keine Rolle, ob du noch Neuling oder echter
-            Veteran*in bist - bei uns sind alle herzlich willkommen!
+            {{ $t('home.hero.subtitle') }}
           </p>
         </div>
       </div>

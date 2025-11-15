@@ -35,7 +35,12 @@
       "join": "Join Discord server"
     },
     "hero": {
-      "subtitle": "Develop Games. Meet Great People. Everything Local At KIT."
+      "subtitle": "As a lively and creative university group, we promote the game development culture at Karlsruhe's universities. To this end, we regularly organise our own local game jams for anyone who enjoys experimenting, developing and collaborative tinkering. It doesn't matter whether you're a newbie or a seasoned veteran – everyone is welcome here!",
+      "title": {
+        "develop": "Develop.",
+        "meet": "Meet.",
+        "play": "Play."
+      }
     },
     "schedule": {
       "events": {
@@ -51,15 +56,19 @@
         },
         "2": {
           "date": "In the week from 26 January 2026 to 1 December 2026",
-          "desc": "",
+          "desc": "We are organising our own Global Game Jam site for the first time. Thanks to funding from THE LÄND, we can offer you many services free of charge. Details to follow!",
           "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
         },
         "3": {
           "date": "Early April 2026",
-          "desc": "",
+          "desc": "The third KIT GameJam will take place in April after the winter exam period! It will be an offline jam, in which you will have 48 hours to develop a game after the theme has been announced. Details to follow!",
           "title": "🥭 ClementinenJam"
         }
-      }
+      },
+      "past": "Past",
+      "register": "Register now ➡",
+      "results": "View results",
+      "soon": "Register soon"
     },
     "sponsors": {
       "title": "Sponsors"
@@ -75,7 +84,8 @@
   "nav": {
     "about": "About",
     "join": "Join",
-    "schedule": "Schedule"
+    "schedule": "Events",
+    "subtitle": "HSG for game development"
   },
   "privacy": {
     "cookies": {
