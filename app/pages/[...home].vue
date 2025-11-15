@@ -1,21 +1,29 @@
 <template>
   <LayoutSection id="hero">
     <EffectBackgroundGradient />
-    <div class="flex flex-col items-center justify-center gap-y-14">
-      <img src="/svg/kgj_logo.svg" alt="KIT GameJam" height="256" width="256" />
-
-      <div class="text-center">
-        <h1
-          class="font-display text-second-900 dark:text-second-100 mx-auto max-w-4xl text-5xl font-medium tracking-tight sm:text-7xl"
-        >
-          KIT GameJam
-        </h1>
-        <h2
-          class="text-second-700 dark:text-second-300 mx-auto mt-6 max-w-2xl text-lg tracking-tight"
-        >
-          {{ $t('home.hero.subtitle') }}
-        </h2>
+    <div
+      class="flex flex-col-reverse items-center justify-center gap-x-20 md:flex-row"
+    >
+      <div class="flex flex-col items-center justify-center gap-y-14">
+        <div class="text-left">
+          <h1
+            class="from-crimson-600 dark:from-crimson-500 mx-auto max-w-4xl bg-gradient-to-br to-violet-600 bg-clip-text text-5xl font-semibold tracking-tight text-transparent select-none sm:text-7xl dark:to-violet-500"
+          >
+            Entwickeln.<br />Spielen.<br />Treffen.
+          </h1>
+          <p
+            class="text-second-700 dark:text-second-300 mx-auto mt-6 max-w-lg text-lg tracking-tight"
+          >
+            Als quirlig-kreative Hochschulgruppe lassen wir die
+            Spieleentwicklungskultur an Karlsruher Hochschulen aufleben. Dafür
+            veranstalten wir regelmäßig eigene lokale GameJams für alle, die
+            Lusts aufs Experimentieren, Entwickeln und gemeinschaftliche Tüfteln
+            haben. Dabei spielt es keine Rolle, ob du noch Neuling oder echter
+            Veteran*in bist - bei uns sind alle herzlich willkommen!
+          </p>
+        </div>
       </div>
+      <LogoDripping class="items-center justify-center md:flex" />
     </div>
   </LayoutSection>
 

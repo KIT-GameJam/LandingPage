@@ -64,4 +64,31 @@ button {
     @apply hover:cursor-pointer;
 }
 
-/* xs breakpoint */
+/* added custom animations for game jam aesthetic */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes jam-drip {
+    0% { transform: translateY(0) scaleY(1); opacity: 1; }
+    100% { transform: translateY(100px) scaleY(0.5); opacity: 0; }
+}
+
+@keyframes float-random {
+    0%, 100% { transform: translateX(0) translateY(0) rotate(0deg); }
+    33% { transform: translateX(20px) translateY(-15px) rotate(120deg); }
+    66% { transform: translateX(-10px) translateY(10px) rotate(240deg); }
+}
+
+.animate-jam-drip {
+    animation: jam-drip 2s ease-in infinite;
+}
+
+.animate-float-slow {
+    animation: float 10s ease-in-out infinite;
+}
+
+.animate-float-random-slow {
+    animation: float-random 20s ease-in-out infinite;
+}
