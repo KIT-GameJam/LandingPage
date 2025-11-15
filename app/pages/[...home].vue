@@ -34,7 +34,6 @@
         :title="$t('home.schedule.events.4.title')"
         :desc="$t('home.schedule.events.4.desc')"
         :date="$t('home.schedule.events.4.date')"
-        past
       />
       <CardEvent
         :title="$t('home.schedule.events.3.title')"
