@@ -29,7 +29,11 @@ export default defineNuxtConfig({
     },
     families: [
       {
-        name: 'Nunito',
+        name: 'Fredoka',
+        provider: 'local',
+      },
+      {
+        name: 'Geist',
         provider: 'local',
       },
     ],

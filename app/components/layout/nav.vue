@@ -1,7 +1,7 @@
 <template>
-  <header class="z-10">
-    <nav>
-      <div
+  <header class="font-fredoka z-10">
+    <div>
+      <nav
         class="flex w-full items-center justify-between gap-x-12 bg-gradient-to-br from-red-200 to-violet-200 p-6 dark:from-red-800 dark:to-violet-800"
       >
         <div class="flex gap-x-12">
@@ -10,27 +10,32 @@
             href="/"
           >
             <img
-              class="hidden transition-transform group-hover:-rotate-12 xs:inline-block"
-              height="48"
-              width="48"
+              class="xs:inline-block hidden transition-transform group-hover:-rotate-12"
+              height="64"
+              width="64"
               src="/svg/kgj_logo.svg"
               alt="logo"
             />
-            <span>
-              <span>KIT&nbsp;GameJam</span>
+            <span class="flex flex-col">
+              <span
+                class="bg-gradient-to-l from-[#d91e3b] to-[#9c27b0] bg-clip-text font-bold text-transparent dark:from-red-700 dark:to-violet-700"
+              >
+                KIT&nbsp;GameJam
+              </span>
+              <span class="text-second-600 text-xs">Spieleentwicklung</span>
             </span>
           </a>
 
           <div
-            class="text-md hidden items-center space-x-12 font-medium text-second-700 dark:text-second-300 xs:flex"
+            class="text-md text-second-700 dark:text-second-300 xs:flex hidden items-center space-x-12 font-medium"
           >
             <a
-              class="hidden rounded-md px-2 py-1 hover:bg-prime-50 dark:hover:bg-prime-950 sm:inline"
+              class="hover:bg-prime-50 dark:hover:bg-prime-950 hidden rounded-md px-2 py-1 sm:inline"
               href="/#schedule"
               >{{ $t('nav.schedule') }}</a
             >
             <a
-              class="hidden rounded-md px-2 py-1 hover:bg-prime-50 dark:hover:bg-prime-950 sm:inline"
+              class="hover:bg-prime-50 dark:hover:bg-prime-950 hidden rounded-md px-2 py-1 sm:inline"
               href="/#join"
               >{{ $t('nav.join') }}</a
             >
@@ -40,12 +45,11 @@
           <SettingTheme />
           <SettingLang />
         </div>
-      </div>
-
+      </nav>
       <div
         class="h-1 bg-gradient-to-r from-red-300 to-violet-300 dark:from-red-700 dark:to-violet-700"
       />
-    </nav>
+    </div>
   </header>
 </template>
 <script setup lang="ts"></script>
