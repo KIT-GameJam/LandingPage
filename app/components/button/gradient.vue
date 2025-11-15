@@ -2,6 +2,7 @@
   <a
     class="gradient-r xs:inline hidden rounded-3xl px-5 py-2 text-white transition ease-in-out hover:scale-110"
     :href="href"
+    :target="target"
     ><slot
   /></a>
 </template>
@@ -11,6 +12,10 @@ defineProps({
   href: {
     type: String,
     default: '#',
+  },
+  target: {
+    type: String,
+    default: '_self',
   },
 });
 </script>

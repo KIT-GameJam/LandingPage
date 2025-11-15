@@ -65,11 +65,11 @@ button {
 }
 
 .gradient-br {
-    @apply bg-gradient-to-br from-crimson-600 to-violet-eggplant-600 dark:from-violet-eggplant-400 dark:to-crimson-400 select-none;
+    @apply bg-gradient-to-br from-crimson-600 to-violet-eggplant-600 dark:from-violet-eggplant-500 dark:to-crimson-500 select-none;
 }
 
 .gradient-r {
-    @apply bg-gradient-to-r from-crimson-600 to-violet-eggplant-600 dark:from-violet-eggplant-400 dark:to-crimson-400 select-none;
+    @apply bg-gradient-to-r from-crimson-600 to-violet-eggplant-600 dark:from-violet-eggplant-500 dark:to-crimson-500 select-none;
 }
 
 /* added custom animations for game jam aesthetic */

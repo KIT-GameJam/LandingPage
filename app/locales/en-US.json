@@ -39,10 +39,25 @@
     },
     "schedule": {
       "events": {
+        "0": {
+          "date": "Wed 02.04.25 - Fri 04.04.2025",
+          "desc": "The first KIT GameJam will take place after the exam period on the first weekend in April! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere.",
+          "title": "🍎 ApfelJam"
+        },
         "1": {
-          "date": "Mon. 13.10. - Wed 15.10.",
-          "desc": "The second KIT GameJam will take place after the summer exam period in October! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere. All detailed information can be found at itch.io.",
-          "title": "🍐 PearJam"
+          "date": "Mon 13.10.25 - Wed 15.10.25",
+          "desc": "The second KIT GameJam will take place after the summer exam period in October! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere.",
+          "title": "🍐 BirnenJam"
+        },
+        "2": {
+          "date": "In the week from 26 January 2026 to 1 December 2026",
+          "desc": "",
+          "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
+        },
+        "3": {
+          "date": "Early April 2026",
+          "desc": "",
+          "title": "🥭 ClementinenJam"
         }
       }
     },
