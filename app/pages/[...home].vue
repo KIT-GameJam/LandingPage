@@ -39,7 +39,8 @@
         :title="$t('home.schedule.events.3.title')"
         :desc="$t('home.schedule.events.3.desc')"
         :date="$t('home.schedule.events.3.date')"
-        link="https://globalgamejam.org/jam-sites/2026/ggj-goes-land-kit-gamejam"
+        link="https://globalgamejam.org/group/31532/games"
+        past
       />
       <CardEvent
         :title="$t('home.schedule.events.2.title')"
