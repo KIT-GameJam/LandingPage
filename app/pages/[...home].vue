@@ -34,6 +34,7 @@
         :title="$t('home.schedule.events.4.title')"
         :desc="$t('home.schedule.events.4.desc')"
         :date="$t('home.schedule.events.4.date')"
+        link="https://itch.io/jam/clementine-kit-gamejam"
       />
       <CardEvent
         :title="$t('home.schedule.events.3.title')"
