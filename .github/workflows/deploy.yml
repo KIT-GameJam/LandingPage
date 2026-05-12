@@ -34,6 +34,11 @@ jobs:
           mkdir -p .vpn
           printf '%s' "${{ secrets.OVPN_CONFIG }}" > .vpn/client.ovpn
 
+      - name: Install OpenVPN
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn openvpn-systemd-resolved
+
       - name: Connect to OpenVPN
         uses: kota65535/github-openvpn-connect-action@v3
         with:
