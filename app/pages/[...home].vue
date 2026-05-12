@@ -31,6 +31,18 @@
       class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3"
     >
       <CardEvent
+        :title="$t('home.schedule.events.6.title')"
+        :desc="$t('home.schedule.events.6.desc')"
+        :date="$t('home.schedule.events.6.date')"
+      />
+      <CardEvent
+        :title="$t('home.schedule.events.5.title')"
+        :desc="$t('home.schedule.events.5.desc')"
+        :date="$t('home.schedule.events.5.date')"
+        :button_text="$t('home.schedule.to_gpn24')"
+        link="https://entropia.de/GPN24"
+      />
+      <CardEvent
         :title="$t('home.schedule.events.4.title')"
         :desc="$t('home.schedule.events.4.desc')"
         :date="$t('home.schedule.events.4.date')"

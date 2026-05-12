@@ -68,12 +68,23 @@
           "date": "Fr 24.04.26 - So 26.04.26",
           "desc": "Die dritte KIT GameJam findet nach der Winter-Klausurenphase im April statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Alle Deatils und die Anmeldung befinden sich auf der itch.io-Site Seite.",
           "title": "🍊 ClementinenJam"
+        },
+        "5": {
+          "date": "Do 04.06.26 - So 07.06.26",
+          "desc": "Zu der GPN 24 in Karlsruhe veranstalten wir wieder die Häckerspiele. Komm gerne an unserem Stand vorbei und entwickle ein Microgame. Diese bündeln wir dann zusammen in ein fertiges Spiel.",
+          "title": "📺 Häckerspiele"
+        },
+        "6": {
+          "date": "Oktober",
+          "desc": "Die vierte KIT GameJam findet nach der Sommer-Klausurenphase im Oktober statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung.",
+          "title": "🫘 DattelJam"
         }
       },
       "past": "Vergangen",
       "register": "Jetzt anmelden ➡",
       "results": "Zu den Ergebnissen",
       "soon": "Anmeldung in Kürze",
+      "to_gpn24": "Zur GPN 24",
       "view_game": "Zum Spiel"
     },
     "sponsors": {
