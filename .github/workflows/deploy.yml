@@ -46,13 +46,24 @@ jobs:
           username: ${{ secrets.OVPN_USERNAME }}
           password: ${{ secrets.OVPN_PASSWORD }}
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ vars.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: ${{ vars.FTP_PORT || 21 }}
-          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
-          local-dir: ./.output/public/
-          server-dir: ${{ vars.FTP_SERVER_DIR }}
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
+
+      - name: Deploy via lftp
+        env:
+          FTP_SERVER: ${{ vars.FTP_SERVER }}
+          FTP_PORT: ${{ vars.FTP_PORT || 21 }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ vars.FTP_SERVER_DIR }}
+        run: |
+          lftp -c "
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate no;
+            set ftp:passive-mode true;
+            set net:max-retries 3;
+            set net:reconnect-interval-base 5;
+            open -p \"$FTP_PORT\" -u \"$FTP_USERNAME,$FTP_PASSWORD\" \"$FTP_SERVER\";
+            mirror -R --delete --only-newer --verbose ./.output/public/ \"$FTP_SERVER_DIR\";
+          "
