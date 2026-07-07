@@ -34,13 +34,15 @@
         :title="$t('home.schedule.events.6.title')"
         :desc="$t('home.schedule.events.6.desc')"
         :date="$t('home.schedule.events.6.date')"
+        link="https://itch.io/jam/dattel-kit-gamejam"
       />
       <CardEvent
         :title="$t('home.schedule.events.5.title')"
         :desc="$t('home.schedule.events.5.desc')"
         :date="$t('home.schedule.events.5.date')"
-        :button_text="$t('home.schedule.to_gpn24')"
-        link="https://entropia.de/GPN24"
+        :button_text="$t('home.schedule.view_game')"
+        link="https://kit-gamejam.itch.io/gpn23-jam"
+        past
       />
       <CardEvent
         :title="$t('home.schedule.events.4.title')"
