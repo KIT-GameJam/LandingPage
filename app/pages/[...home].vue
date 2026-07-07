@@ -4,7 +4,7 @@
     <div
       class="flex flex-col-reverse items-center justify-center gap-x-20 md:flex-row"
     >
-      <div class="flex flex-col items-center justify-center gap-y-14">
+      <div class="flex flex-col items-start justify-center gap-y-5">
         <div class="text-left">
           <h1
             class="font-fredoka! gradient-br mx-auto max-w-4xl bg-clip-text text-5xl font-semibold tracking-tight text-transparent select-none sm:text-7xl"
@@ -19,6 +19,7 @@
             {{ $t('home.hero.subtitle') }}
           </p>
         </div>
+        <Socials class="gap-x-4!" />
       </div>
       <EffectLogoDripping class="items-center justify-center md:flex" />
     </div>
