@@ -87,6 +87,75 @@
       "to_gpn24": "Zur GPN 24",
       "view_game": "Zum Spiel"
     },
+    "faq": {
+      "title": "FAQ",
+      "faqs": {
+        "who": {
+          "question": "Wer darf mit machen? Brauche ich Vorkenntnisse?",
+          "answer": "Jeder darf mitmachen. Egal ob Studendierende oder schon im Berufsleben. Du brauchst keine Vorkenntnisse. Ziel dieser Veranstaltung ist es Spaß zu haben und neue Dinge auszuprobieren. Wenn du schon Vorkenntnisse in Programmieren, Musik, Kunst und Schreiben hast, kannst du deine Erfahrungen gerne mitbringen und an andere weitergeben. "
+        },
+        "attendence": {
+          "question": "Besteht Anwesenheitspflicht? Oder geht auch Remote? Bekomme ich ECTS?",
+          "answer": " Es besteht keine Anwesendheitspflicht. Du kannst auch von Zuhause aus arbeiten, wenn dir das lieber ist. Melde dich in dem Fall bitte nur bei itch zum GameJam an, damit wir einen besseren überblick haben für wie viele Personen vor Ort wir Material bereitstellen müssen. Bisher gibt es keine ECTS für den GameJam, die dir angerechnet werden können. Wir sind allerdings im ständigen Austausch mit verschiedenen Lehrstühlen am KIT. "
+        },
+        "teams": {
+          "question": "Kann nich mich alleine Anmelden? Wie groß dürfen Teams sein?",
+          "answer": "Du kannst dich alleine oder direkt mit einem Team anmelden. Teams dürfen beliebig groß sein. Meistens ergeben sich Gruppen spontan bei den Ideenphase. Höre dich einfach bei den verschiedenen Tischen um. Vielleicht gefällt dir eine Idee und du kannst deine eigene Meinung einbringen oder vielleicht fehlt einer Gruppe noch genau eine Person mit deinen Kenntnissen. Falls es dir schwer fällt eine Gruppe zu finden, dann sprich uns gerne an und wir helfen dir weiter. "
+        },
+        "prize": {
+          "question": "Gibt es einen Preis?",
+          "answer": "Ja, es gibt einen Pokal mit symbolischen Wert für das Spiel mit den besten Bewertungen. Es gibt kein Preisgeld. Nach dem Gamejam könnt ihr alle Spiele anspielen und Bewertungen auf itch einreichen. Ein paar Wochen später veranstalten wir dann eine Siegerehrung, bei der ein Pokal mit symbolischen Wert überreicht wird. "
+        },
+        "costs": {
+          "question": "Kostet die Teilnahme etwas?",
+          "answer": "Nein, die Teilnahme ist kostenlos. Wir bemühen uns jedes Mal die Veranstaltung kostenlos für alle anzubieten, um die Veranstaltung möglichst vielen Menschen zugänglich zu machen. Dazu bedanken wir uns herzlich bei unseren Sponsoren. Wir freuen uns zusätzlich für jede Spende! "
+        },
+        "food": {
+          "question": "Gibt es Essen? Auch vegan/vegetarisch?",
+          "answer": "Ja. Wir bemühen uns für jeden Tag mindestens zwei Mahlzeiten anzubieten. Dazu haben wir bisher ein Frühstück mit Brötchen und verschiedenen Aufschnitten und Aufstrichen angeboten. Abends gibt es meistens Pizza. Bei beiden Mahlzeiten bieten wir vegane und vegetarische Alternativen an. Falls du weitere Einschränkungen hast, melde dich gerne vorher bei uns und wir schauen ob wir eine Lösung finden. Alternativ findest du im direkten Umkreis einige Restaurants, Imbisse und einen Supermarkt. "
+        },
+        "ai": {
+          "question": "Darf generative künstliche Intelligenz genutzt werden?",
+          "answer": " Ja, du darfst künstliche Intelligenz benutzen, sowohl bei der Erstellung von Code, als auch bei der Erstellung von Assets. Wir bitten dich darum die Nutzung von KI bei deinem Entrag auf itch zu kennzeichnen. "
+        },
+        "items": {
+          "question": "Was muss ich mitbringen?",
+          "answer": " - Laptop/Rechner + Netzteil + Zubehör (wir können dir leider kein Gerät zur verfügung stellen) "
+        },
+        "theme": {
+          "question": "Gibt es ein vorgeschriebenes Thema/Assetpacks/Werkzeuge?",
+          "answer": "Ja, es gibt ein vorgeschriebenes Thema. Ein paar Wochen vor dem GameJam kann man auf einer Umfrage mögliche Themen einreichen. Wir wählen dann intern die zehn besten Kandidaten aus. Am Tag des Starts vom GameJam könnt ihr dann das Thema abstimmen, das für den GameJam gelten soll. Alles weitere, wie Assets, Werkzeuge und Programme, sind dir komplett frei gelassen. "
+        },
+        "publish": {
+          "question": "Muss ich mein Spiel veröffentlichen? Auch den Quellcode? Unter welcher Lizenz? Für welche Plattformen?",
+          "answer": " Nein, du musst dein Spiel nicht veröffentlichen. Niemand zwingt dich dein Ergebnis zu zeigen, wenn du das nicht möchtest. Oft sind unfertige Spiele und der Weg dahin allerdings lustig und interessant zu hören. Wenn du möchtest, dass andere dein Spiel spielen, dann veröfftliche dein Spiel am besten auf Plattformen, die leicht zugänglich sind. Am besten veröffentlichst du dein Spiel als Web-Export und lädst diesen auch itch hoch. Bei der Siegerehrung haben wir ein paar Laptops, bei die eingereichten Spiele vorinstalliert sind. Dafür exportierst du dein Spiel am besten für Microsoft Windows. Den Quellcode musst du ebenfalls nicht veröffentlichen. Du hilfst gegebenenfalls anderen Menschen weiter, wenn dein Quellcode öffentlich ist und du andere Menschen damit inspirrieren kannst (so wie du dich wohlmöglich von Inhalten anderer auf StackOverflow, GitHub, ... inspiriert hast). Dafür kannst du deinen Quelltext auf itch und Git-Forges, wie GitHub, hochladen. Damit andere Personen teile deines Codes und Assets rechtlich verwenden können oder Änderungen an deinem Spiel machen dürfen, musst du deinem Code und Assets eine Open-Source Lizenz beifügen. Wenn du dich nicht auskennst, empfehlen wir die MIT-Lizenz für Code und CC-BY für Assets. https://opensource.org/license/MIT https://creativecommons.org/licenses/by/4.0/ Wenn du Fragen hast, sprich uns gerne an. "
+        },
+        "copyright": {
+          "question": "Kann ich urheberrechtlich geschütztes Material verwenden?",
+          "answer": "Wir sind keine Rechtsanwälte, also nimm diese Rätschläge mit Vorsicht. Am besten ist es wenn du Assets verwendest, die eine Lizenz haben, die dir erlaubt sie kostenlos zu verwenden und zu teilen. Schaue dir eventuell weitere Einschränkungen an: Darfst du sie verändern? Musst du den Author angeben? Am besten sind Assets, die unter Creative Commons oder Public Domain stehen. Meistens kannst du auf verschiedenen Asset-Seiten und Suchmaschinen die Ergebnisse auf diese Lizenzen einschränken. Indem du ein Spiel erstellst, erstellst du ein eigenes Werk, von dem das urheberrechtlich geschütztes Material nur ein Teil darstellt. Du hast also eine Eigenleistung erbracht. Damit sollte dein Spiel unter der Kunstfreiheit gedeckt sein. Für Studierende könnte man vielleicht noch die Wissenschaftsfreiheit mit einbringen. Zuletzt verdienst du mit dem Spiel kein Geld. Wo kein Kläger, da kein Richter. "
+        },
+        "content": {
+          "question": "Darf ich zuvor von mir erstellte Inhalte verwenden oder muss jeder Inhalt innerhalb der 48h erstellt werden?",
+          "answer": "Ja, du darfst bereits von dir erstelle Inhalte verwenden. Wenn du bereits mit einem halbfertigen Spiel ankommst, wäre es nett, wenn du dein Spiel nicht beim GameJam auf itch registrierst, damit es für alle fair bleibt. "
+        },
+        "sleep": {
+          "question": "Gibt es Schlafplätze? Darf ich die Nacht durchmachen? Gibt es Öffnungszeiten? Gibt es Nachtruhe?",
+          "answer": "Nein, es gibt keine Schlafplätze. Gehe zum schlafen bitte zu dir nachhause. Vielleicht findet sich auf eine Person vor Ort, die dir ein Sofa anbieten kann. Wir bemühen uns, dass Rund um die Uhr jemand von uns vor Ort ist. Allerdings müssen wir leider auch mal schlafen, wodurch es vorkommen kann, dass wir den Veranstaltungsort über Nacht abschließen. Morgens gegen 8:00 und 9:00 ist dann mindests wieder jemand von uns da und schließt auf. Der Veranstaltungsort befindet sich in direkter Nähe zu Wohnungen, weshalb wir uns an die Nachtruhe halten müssen. Wir bitten euch daher ab 22:00 ruhig zu sein und die Fenster zu schließen. "
+        },
+        "ensurance": {
+          "question": "Kann ich mein Setup über Nacht stehen lassen? Sind meine Sachen versichert?",
+          "answer": "Nein, eure Gegenstände sind bei uns nicht versichert. Bitte gebt auf eure Gegenstände acht und entscheidet selbst ob ihr das Risiko eingeht sie über Nacht stehen zu lassen. Wir bemühen uns ein Auge auf Personen zu haben, die nicht Teilnehmer des GameJams sind. "
+        },
+        "deadline": {
+          "question": "Muss ich mein Spiel bereits innerhalb der 48h hochladen oder gibt es dafür ein weiteren Zeitraum?",
+          "answer": "Es gibt keinen weiter Hochlade-Zeitraum. Lade dein Spiel bitte innerhalb der 48h hoch. "
+        },
+        "continue": {
+          "question": "Kann ich nach dem Gamejam weiter an meinem Spiel arbeiten? Kann ich die itch Seite danach bearbeiten?",
+          "answer": "Ja, du kannst gerne weiter an deinem Spiel arbeiten. Wir freuen uns immer zu sehen was aus den Spielen wird."
+        }
+      }
+    },
     "sponsors": {
       "title": "Sponsoren"
     }
