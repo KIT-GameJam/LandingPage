@@ -114,8 +114,8 @@
             answer: $t('home.faq.faqs.who.answer'),
           },
           {
-            question: $t('home.faq.faqs.attendence.question'),
-            answer: $t('home.faq.faqs.attendence.answer'),
+            question: $t('home.faq.faqs.attendance.question'),
+            answer: $t('home.faq.faqs.attendance.answer'),
           },
           {
             question: $t('home.faq.faqs.teams.question'),
