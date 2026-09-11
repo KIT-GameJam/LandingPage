@@ -104,6 +104,79 @@
       </CardLink>
     </div>
   </LayoutSection>
+  <LayoutSection id="faq">
+    <LayoutHeading>{{ $t('home.faq.title') }}</LayoutHeading>
+    <div class="mt-6">
+      <Faq
+        :faqs="[
+          {
+            question: $t('home.faq.faqs.who.question'),
+            answer: $t('home.faq.faqs.who.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.attendence.question'),
+            answer: $t('home.faq.faqs.attendence.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.teams.question'),
+            answer: $t('home.faq.faqs.teams.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.prize.question'),
+            answer: $t('home.faq.faqs.prize.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.costs.question'),
+            answer: $t('home.faq.faqs.costs.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.food.question'),
+            answer: $t('home.faq.faqs.food.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.ai.question'),
+            answer: $t('home.faq.faqs.ai.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.items.question'),
+            answer: $t('home.faq.faqs.items.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.theme.question'),
+            answer: $t('home.faq.faqs.theme.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.publish.question'),
+            answer: $t('home.faq.faqs.publish.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.copyright.question'),
+            answer: $t('home.faq.faqs.copyright.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.content.question'),
+            answer: $t('home.faq.faqs.content.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.sleep.question'),
+            answer: $t('home.faq.faqs.sleep.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.ensurance.question'),
+            answer: $t('home.faq.faqs.ensurance.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.deadline.question'),
+            answer: $t('home.faq.faqs.deadline.answer'),
+          },
+          {
+            question: $t('home.faq.faqs.continue.question'),
+            answer: $t('home.faq.faqs.continue.answer'),
+          },
+        ]"
+      />
+    </div>
+  </LayoutSection>
 
   <LayoutSection id="schedule">
     <LayoutHeading>{{ $t('home.sponsors.title') }}</LayoutHeading>
