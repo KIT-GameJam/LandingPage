@@ -92,11 +92,11 @@
       "faqs": {
         "who": {
           "question": "Who can participate? Do I need prior knowledge?",
-          "answer": "Anyone can participate. Whether you're a student or already in the workforce, you don't need any prior knowledge. The goal of this event is to have fun and try out new things. If you already have experience in programming, music, art, or writing, you're welcome to bring and share your expertise with others."
+          "answer": "Anyone can participate. Whether you're a student or already in the workforce, you don't need any prior knowledge. The goal of this event is to have fun and try out new things. If you already have experience in programming, music, art, or writing, you're welcome to bring and share your expertise with others. If you're underage, please indicate this when registering, and we'll contact you."
         },
         "attendance": {
           "question": "Is attendance mandatory? Can I participate remotely? Will I receive ECTS credits?",
-          "answer": "Attendance is not mandatory. You can also work from home if you prefer. In that case, please register for the GameJam on itch so we can better estimate how much material to prepare for on-site participants. Currently, there are no ECTS credits available for the GameJam. However, we are in constant communication with various departments at KIT."
+          "answer": "Attendance is not mandatory. You can also work from home if you prefer. If you're participating online only, please don't get an on-site ticket. Instead, register for the GameJam on itch so we can better estimate how much material to prepare for on-site participants. There are no ECTS credits available for the GameJam."
         },
         "teams": {
           "question": "Can I register alone? How large can teams be?",
@@ -104,7 +104,7 @@
         },
         "prize": {
           "question": "Is there a prize?",
-          "answer": "Yes, there is a symbolic trophy for the game with the best ratings. There is no cash prize. After the GameJam, you can play all the games and submit ratings on itch. A few weeks later, we’ll hold an award ceremony where the trophy will be presented."
+          "answer": "No, there is no cash prize, but there is a symbolic trophy for the game with the best ratings. The focus is on the fun of creating a game rather than winning a prize. After the GameJam, you can play all the games and submit ratings on itch. A few weeks later, we’ll hold an award ceremony where the trophy will be presented."
         },
         "costs": {
           "question": "Does participation cost anything?",
@@ -120,7 +120,7 @@
         },
         "items": {
           "question": "What do I need to bring?",
-          "answer": "- Laptop/computer + charger + accessories (we cannot provide devices for you)"
+          "answer": "We cannot provide devices for you. Please bring everything you need to create a game, such as a laptop/computer + charger + accessories, drawing tablet, and instrument, depending on your interests."
         },
         "theme": {
           "question": "Is there a prescribed theme, asset packs, or tools?",
@@ -128,11 +128,11 @@
         },
         "publish": {
           "question": "Do I have to publish my game? What about the source code? Under which license? For which platforms?",
-          "answer": "No, you don’t have to publish your game. No one will force you to share your results if you don’t want to. Often, unfinished games and the process behind them are fun and interesting to hear about. If you want others to play your game, the best way is to publish it on easily accessible platforms. Exporting your game as a web version and uploading it to itch is ideal. For the award ceremony, we’ll have a few laptops with the submitted games pre-installed, so exporting for Microsoft Windows is recommended. You don’t have to publish the source code either. Making your source code public can help others, just as you might have been inspired by content on StackOverflow, GitHub, etc. You can upload your source code to itch and Git forges like GitHub. To allow others to legally use parts of your code or assets or make changes to your game, you must attach an open-source license to your code and assets. If you’re unsure, we recommend the MIT License for code and CC-BY for assets. https://opensource.org/license/MIT https://creativecommons.org/licenses/by/4.0/ Feel free to ask us if you have any questions."
+          "answer": "No, you don’t have to publish your game. No one will force you to share your results if you don’t want to. Often, unfinished games and the process behind them are fun and interesting to hear about. If you want others to play your game, the best way is to publish it on easily accessible platforms. Exporting your game as a web version and uploading it to itch is ideal. For the award ceremony, we’ll have a few laptops with the submitted games pre-installed, so exporting for Microsoft Windows is recommended. You don’t have to publish the source code either. Making your source code public can help others, just as you might have been inspired by content on StackOverflow, GitHub, etc. You can upload your source code to itch and Git forges like GitHub. To allow others to legally use parts of your code or assets or make changes to your game, you must attach an open-source license to your code and assets. If you have questions, feel free to ask us."
         },
         "copyright": {
           "question": "Can I use copyrighted material?",
-          "answer": "We are not lawyers, so take this advice with caution. It’s best to use assets that have a license allowing free use and sharing. Check for additional restrictions: Are you allowed to modify them? Do you need to credit the author? Assets under Creative Commons or Public Domain are ideal. You can often filter search results on asset websites and search engines to show only these licenses. By creating a game, you’re producing your own work, of which copyrighted material is only a part. You’ve contributed your own effort, so your game should be covered under freedom of art. For students, academic freedom might also apply. Lastly, you’re not earning money from the game. Where there’s no plaintiff, there’s no judge."
+          "answer": "We are not lawyers, so take this advice with caution. It’s best to use assets that have a license allowing free use and sharing. Check for additional restrictions: Are you allowed to modify them? Do you need to credit the author? Assets under Creative Commons or Public Domain are ideal. You can often filter search results on asset websites and search engines to show only these licenses. By creating a game, you’re producing your own work, of which copyrighted material is only a part. You’ve contributed your own effort, so your game should be covered under freedom of art."
         },
         "content": {
           "question": "Can I use content I created beforehand, or must everything be created within the 48 hours?",

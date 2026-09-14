@@ -92,19 +92,19 @@
       "faqs": {
         "who": {
           "question": "Wer darf mitmachen? Brauche ich Vorkenntnisse?",
-          "answer": "Jeder darf mitmachen. Egal ob Studierende oder schon im Berufsleben. Du brauchst keine Vorkenntnisse. Ziel dieser Veranstaltung ist es Spaß zu haben und neue Dinge auszuprobieren. Wenn du schon Vorkenntnisse in Programmieren, Musik, Kunst und Schreiben hast, kannst du deine Erfahrungen gerne mitbringen und an andere weitergeben. "
+          "answer": "Jeder darf mitmachen. Egal ob Studierende oder schon im Berufsleben. Du brauchst keine Vorkenntnisse. Ziel dieser Veranstaltung ist es Spaß zu haben und neue Dinge auszuprobieren. Wenn du schon Vorkenntnisse in Programmieren, Musik, Kunst und Schreiben hast, kannst du deine Erfahrungen gerne mitbringen und an andere weitergeben. Wenn du minderjährig bist, gib das bei der Anmeldung an und wir schreiben dich an."
         },
         "attendance": {
-          "question": "Besteht Anwesenheitspflicht? Oder geht auch Remote? Bekomme ich ECTS?",
-          "answer": " Es besteht keine Anwesenheitspflicht. Du kannst auch von Zuhause aus arbeiten, wenn dir das lieber ist. Melde dich in dem Fall bitte nur bei itch zum GameJam an, damit wir einen besseren Überblick haben für wie viele Personen vor Ort wir Material bereitstellen müssen. Bisher gibt es keine ECTS für den GameJam, die dir angerechnet werden können. Wir sind allerdings im ständigen Austausch mit verschiedenen Lehrstühlen am KIT. "
+          "question": "Besteht Anwesenheitspflicht? Oder geht es auch Remote? Bekomme ich ECTS?",
+          "answer": " Es besteht keine Anwesenheitspflicht. Du kannst auch von Zuhause aus arbeiten, wenn dir das lieber ist. Falls du nur online teilnimmst, hole dir kein Vor-Ort-Ticket, sondern melde dich in dem Fall bitte nur bei itch zum GameJam an, damit wir einen besseren Überblick haben für wie viele Personen vor Ort wir Material bereitstellen müssen. Es gibt keine ECTS für den GameJam, die dir angerechnet werden können. Wir denken aber, dass es trotzdem eine wertvolle Veranstaltung ist. "
         },
         "teams": {
           "question": "Kann ich mich alleine anmelden? Wie groß dürfen Teams sein?",
-          "answer": "Du kannst dich alleine oder direkt mit einem Team anmelden. Teams dürfen beliebig groß sein. Meistens ergeben sich Gruppen spontan bei der Ideenphase. Höre dich einfach bei den verschiedenen Tischen um. Vielleicht gefällt dir eine Idee und du kannst deine eigene Meinung einbringen oder vielleicht fehlt einer Gruppe noch genau eine Person mit deinen Kenntnissen. Falls es dir schwerfällt eine Gruppe zu finden, dann sprich uns gerne an und wir helfen dir weiter. "
+          "answer": "Du kannst dich alleine oder direkt mit einem Team anmelden. Teams dürfen beliebig groß sein. Meistens ergeben sich Gruppen spontan während der Ideenphase. Höre dich einfach bei den verschiedenen Gruppen um. Vielleicht gefällt dir eine Idee und du kannst deine eigene Meinung einbringen oder vielleicht fehlt einer Gruppe noch genau eine Person mit deinen Kenntnissen. Falls es dir schwerfällt eine Gruppe zu finden, dann sprich uns gerne an und wir helfen dir weiter. "
         },
         "prize": {
           "question": "Gibt es einen Preis?",
-          "answer": "Ja, es gibt einen Pokal mit symbolischem Wert für das Spiel mit den besten Bewertungen. Es gibt kein Preisgeld. Nach dem Gamejam könnt ihr alle Spiele anspielen und Bewertungen auf itch einreichen. Ein paar Wochen später veranstalten wir dann eine Siegerehrung, bei der ein Pokal mit symbolischem Wert überreicht wird. "
+          "answer": "Nein, es gibt kein Preisgeld, aber einen Pokal mit symbolischem Wert für das Spiel mit den besten Bewertungen. Es soll auch nicht um einen Preis, sondern um den Spaß um das erstellen eines Spiels gehen. Nach dem Gamejam könnt ihr alle Spiele anspielen und Bewertungen auf itch einreichen. Zwei bis drei Wochen später veranstalten wir dann eine Siegerehrung, bei der der Pokal überreicht wird. "
         },
         "costs": {
           "question": "Kostet die Teilnahme etwas?",
@@ -120,7 +120,7 @@
         },
         "items": {
           "question": "Was muss ich mitbringen?",
-          "answer": " - Laptop/Rechner + Netzteil + Zubehör (wir können dir leider kein Gerät zur Verfügung stellen) "
+          "answer": "Wir können dir keine Geräte bereitstellen. Bring bitte alles mit, was du für die Erstellung eines Spiels benötigst. Wir empfehlen je nach deinem Interessen Laptop/Rechner + Netzteil + Zubehör, Zeichentablett und Instrument mitzubringen."
         },
         "theme": {
           "question": "Gibt es ein vorgeschriebenes Thema/Assetpacks/Werkzeuge?",
@@ -128,11 +128,11 @@
         },
         "publish": {
           "question": "Muss ich mein Spiel veröffentlichen? Auch den Quellcode? Unter welcher Lizenz? Für welche Plattformen?",
-          "answer": " Nein, du musst dein Spiel nicht veröffentlichen. Niemand zwingt dich dein Ergebnis zu zeigen, wenn du das nicht möchtest. Oft sind unfertige Spiele und der Weg dahin allerdings lustig und interessant zu hören. Wenn du möchtest, dass andere dein Spiel spielen, dann veröffentliche dein Spiel am besten auf Plattformen, die leicht zugänglich sind. Am besten veröffentlichst du dein Spiel als Web-Export und lädst diesen auch itch hoch. Bei der Siegerehrung haben wir ein paar Laptops, bei denen eingereichten Spiele vorinstalliert sind. Dafür exportierst du dein Spiel am besten für Microsoft Windows. Den Quellcode musst du ebenfalls nicht veröffentlichen. Du hilfst gegebenenfalls anderen Menschen weiter, wenn dein Quellcode öffentlich ist und du andere Menschen damit inspirieren kannst (so wie du dich wohl möglich von Inhalten anderer auf StackOverflow, GitHub, ... inspiriert hast). Dafür kannst du deinen Quelltext auf itch und Git-Forges, wie GitHub, hochladen. Damit andere Personen Teile deines Codes und Assets rechtlich verwenden können oder Änderungen an deinem Spiel machen dürfen, musst du deinem Code und Assets eine Open-Source Lizenz beifügen. Wenn du dich nicht auskennst, empfehlen wir die MIT-Lizenz für Code und CC-BY für Assets. https://opensource.org/license/MIT https://creativecommons.org/licenses/by/4.0/ Wenn du Fragen hast, sprich uns gerne an. "
+          "answer": " Nein, du musst dein Spiel nicht veröffentlichen. Niemand zwingt dich dein Ergebnis zu zeigen, wenn du das nicht möchtest. Oft sind unfertige Spiele und der Weg dahin allerdings interessant zu hören. Wenn du möchtest, dass andere dein Spiel spielen, dann veröffentliche dein Spiel am besten auf Plattformen, die leicht zugänglich sind. Am besten veröffentlichst du dein Spiel als Web-Export und lädst diesen auch itch hoch. Bei der Siegerehrung haben wir ein paar Laptops, bei denen eingereichten Spiele vorinstalliert sind. Dafür exportierst du dein Spiel am besten für Microsoft Windows. Den Quellcode musst du ebenfalls nicht veröffentlichen. Du hilfst gegebenenfalls anderen Menschen weiter, wenn dein Quellcode öffentlich ist und du andere Menschen damit inspirieren kannst (so wie du dich wohl möglich von Inhalten anderer auf StackOverflow, GitHub, ... inspiriert hast). Dafür kannst du deinen Quelltext auf itch und Git-Forges, wie GitHub, hochladen. Damit andere Personen Teile deines Codes und Assets rechtlich sicher verwenden können oder Änderungen an deinem Spiel machen dürfen, kannst du deinem Code und Assets eine Open-Source Lizenz beifügen. Wenn du Fragen hast, sprich uns gerne an. "
         },
         "copyright": {
           "question": "Kann ich urheberrechtlich geschütztes Material verwenden?",
-          "answer": "Wir sind keine Rechtsanwälte, also nimm diese Ratschläge mit Vorsicht. Am besten ist es, wenn du Assets verwendest, die eine Lizenz haben, die dir erlaubt sie kostenlos zu verwenden und zu teilen. Schaue dir eventuell weitere Einschränkungen an: Darfst du sie verändern? Musst du den Autor angeben? Am besten sind Assets, die unter Creative Commons oder Public Domain stehen. Meistens kannst du auf verschiedenen Asset-Seiten und Suchmaschinen die Ergebnisse auf diese Lizenzen einschränken. Indem du ein Spiel erstellst, erstellst du ein eigenes Werk, von dem das urheberrechtlich geschütztes Material nur einen Teil darstellt. Du hast also eine Eigenleistung erbracht. Damit sollte dein Spiel unter der Kunstfreiheit gedeckt sein. Für Studierende könnte man vielleicht noch die Wissenschaftsfreiheit mit einbringen. Zuletzt verdienst du mit dem Spiel kein Geld. Wo kein Kläger, da kein Richter. "
+          "answer": "Wir sind keine Rechtsanwälte, also nimm diese Ratschläge mit Vorsicht. Am besten ist es, wenn du Assets verwendest, die eine Lizenz haben, die dir erlaubt sie kostenlos zu verwenden und zu teilen. Schaue dir eventuell weitere Einschränkungen an: Darfst du sie verändern? Musst du den Autor angeben? Am besten sind Assets, die unter Creative Commons oder Public Domain stehen. Meistens kannst du auf verschiedenen Asset-Seiten und Suchmaschinen die Ergebnisse auf diese Lizenzen einschränken. Indem du ein Spiel erstellst, erstellst du ein eigenes Werk, von dem das urheberrechtlich geschütztes Material nur einen Teil darstellt. Du hast also eine Eigenleistung erbracht. Damit sollte dein Spiel unter der Kunstfreiheit gedeckt sein. "
         },
         "content": {
           "question": "Darf ich zuvor von mir erstellte Inhalte verwenden oder muss jeder Inhalt innerhalb der 48h erstellt werden?",
@@ -140,7 +140,7 @@
         },
         "sleep": {
           "question": "Gibt es Schlafplätze? Darf ich die Nacht durchmachen? Gibt es Öffnungszeiten? Gibt es Nachtruhe?",
-          "answer": "Nein, es gibt keine Schlafplätze. Gehe zum Schlafen bitte zu dir nachhause. Vielleicht findet sich auch eine Person vor Ort, die dir ein Sofa anbieten kann. Wir bemühen uns, dass rund um die Uhr jemand von uns vor Ort ist. Allerdings müssen wir leider auch mal schlafen, wodurch es vorkommen kann, dass wir den Veranstaltungsort über Nacht abschließen. Morgens gegen 8:00 und 9:00 ist dann mindestens wieder jemand von uns da und schließt auf. Der Veranstaltungsort befindet sich in direkter Nähe zu Wohnungen, weshalb wir uns an die Nachtruhe halten müssen. Wir bitten euch daher ab 22:00 ruhig zu sein und die Fenster zu schließen. "
+          "answer": "Nein, es gibt keine Schlafplätze. Gehe zum Schlafen bitte zu dir nachhause. Vielleicht findet sich auch eine Person vor Ort, die dir ein Sofa anbieten kann. Wir bemühen uns, dass rund um die Uhr jemand von uns vor Ort ist. Allerdings müssen wir leider auch mal schlafen, wodurch es vorkommen kann, dass wir den Veranstaltungsort über Nacht abschließen. Morgens gegen 8:00 und 9:00 Uhr ist dann wieder jemand von uns da und schließt auf. Der Veranstaltungsort befindet sich in direkter Nähe zu Wohnungen, weshalb wir uns an die Nachtruhe halten müssen. Wir bitten euch daher ab 22:00 ruhig zu sein und die Fenster zu schließen. "
         },
         "ensurance": {
           "question": "Kann ich mein Setup über Nacht stehen lassen? Sind meine Sachen versichert?",
