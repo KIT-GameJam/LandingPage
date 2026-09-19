@@ -45,37 +45,30 @@
     "schedule": {
       "events": {
         "0": {
-          "date": "Wed 02.04.25 - Fri 04.04.2025",
           "desc": "The first KIT GameJam will take place after the exam period on the first weekend in April! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere.",
           "title": "🍎 ApfelJam"
         },
         "1": {
-          "date": "Thu 19.06.25 - Sun 22.06.2025",
           "desc": "We are organising the Hacker Games at GPN 23 in Karlsruhe. Feel free to stop by our stand and develop a microgame. We will then combine these into a finished game.",
           "title": "📺 Häckerspiele"
         },
         "2": {
-          "date": "Mon 13.10.25 - Wed 15.10.25",
           "desc": "The second KIT GameJam will take place after the summer exam period in October! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere.",
           "title": "🍐 BirnenJam"
         },
         "3": {
-          "date": "Fri 30.01.26 - Sun 01.02.26",
           "desc": "We are organising our own Global Game Jam site for the first time. Thanks to funding from THE LÄND, we can offer you many services free of charge. All details and registration can be found on our GGJ site page.",
           "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
         },
         "4": {
-          "date": "Fri 24.04.26 - Sun 26.04.26",
           "desc": "The third KIT GameJam will take place in April after the winter exam period! It will be an offline jam, in which you will have 48 hours to develop a game after the theme has been announced. All details and registration can be found on the itch.io site page.",
           "title": "🍊 ClementinenJam"
         },
         "5": {
-          "date": "Thu 04.06.26 - Sun 07.06.26",
           "desc": "We are organising the Hacker Games again at GPN 24 in Karlsruhe. Feel free to stop by our stand and develop a microgame. We will then combine these into a finished game.",
           "title": "📺 Häckerspiele"
         },
         "6": {
-          "date": "Fri 02.10.26 - Sun 04.10.26",
           "desc": "The fourth KIT GameJam will take place after the summer exam period in October! It will be an offline jam in which you will have 48 hours to develop a game after the topic has been announced. We will provide you with catering and rooms for a pleasant working atmosphere.",
           "title": "🫘 DattelJam"
         }
