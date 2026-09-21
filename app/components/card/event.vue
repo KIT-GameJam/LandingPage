@@ -7,9 +7,15 @@
         {{ title }}
       </h3>
       <Badge v-if="past">{{ $t('home.schedule.past') }}</Badge>
+      <a v-else :href="calendar">
+        <CalendarIcon
+          class="text-second-600 group-hover:text-second-500 dark:text-second-400 h-6 w-6"
+          aria-hidden="true"
+        />
+      </a>
     </div>
     <p class="text-prime-600 dark:text-prime-400 text-sm font-medium">
-      {{ date }}
+      {{ $d(Date.parse(start), 'long') }} - {{ $d(Date.parse(end), 'long') }}
     </p>
     <LayoutDividerLine />
     <p class="dark:text-second-100 text-second-900 mb-1 flex-1">
@@ -32,7 +38,9 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
+import { CalendarIcon } from '@heroicons/vue/24/outline';
+
+const props = defineProps({
   title: {
     type: String,
     required: true,
@@ -41,7 +49,15 @@ defineProps({
     type: String,
     required: true,
   },
-  date: {
+  calendar: {
+    type: String,
+    required: true,
+  },
+  start: {
+    type: String,
+    required: true,
+  },
+  end: {
     type: String,
     required: true,
   },
@@ -53,9 +69,7 @@ defineProps({
     type: String,
     default: null,
   },
-  past: {
-    type: Boolean,
-    default: false,
-  },
 });
+
+const past = computed(() => Date.parse(props.end) < Date.now());
 </script>

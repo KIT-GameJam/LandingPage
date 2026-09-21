@@ -1,0 +1,53 @@
+[
+  {
+    "title": "home.schedule.events.6.title",
+    "desc": "home.schedule.events.6.desc",
+    "start": "2026-10-02",
+    "end": "2026-10-04",
+    "link": "https//itch.io/jam/dattel-kit-gamejam"
+  },
+  {
+    "title": "home.schedule.events.5.title",
+    "desc": "home.schedule.events.5.desc",
+    "start": "2026-06-04",
+    "end": "2026-06-07",
+    "button_text": "home.schedule.view_game",
+    "link": "https//kit-gamejam.itch.io/gpn23-jam"
+  },
+  {
+    "title": "home.schedule.events.4.title",
+    "desc": "home.schedule.events.4.desc",
+    "start": "2026-04-24",
+    "end": "2026-04-26",
+    "link": "https//itch.io/jam/clementine-kit-gamejam/results"
+  },
+  {
+    "title": "home.schedule.events.3.title",
+    "desc": "home.schedule.events.3.desc",
+    "start": "2026-01-30",
+    "end": "2026-02-01",
+    "link": "https//globalgamejam.org/group/31532/games"
+  },
+  {
+    "title": "home.schedule.events.2.title",
+    "desc": "home.schedule.events.2.desc",
+    "start": "2025-10-13",
+    "end": "2025-10-15",
+    "link": "https//itch.io/jam/birne-kit-gamejam/results"
+  },
+  {
+    "title": "home.schedule.events.1.title",
+    "desc": "home.schedule.events.1.desc",
+    "start": "2025-06-19",
+    "end": "2025-06-22",
+    "button_text": "home.schedule.view_game",
+    "link": "https//kit-gamejam.itch.io/gpn23-jam"
+  },
+  {
+    "title": "home.schedule.events.0.title",
+    "desc": "home.schedule.events.0.desc",
+    "start": "2025-04-02",
+    "end": "2025-04-04",
+    "link": "https//itch.io/jam/apfel-kit-gamejam/results"
+  }
+]

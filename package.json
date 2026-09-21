@@ -12,9 +12,9 @@
   },
   "scripts": {
     "start": "node .output/server/index.mjs",
-    "build": "nuxt build",
+    "build": "node create-icals.js && nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "node create-icals.js && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "prettier --write ."
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^3.2.4",
+    "ical-generator": "^11.1.1",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.8.0"
   }
