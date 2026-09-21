@@ -13,7 +13,7 @@ function getValueByPath(obj, path) {
   return path.split('.').reduce((current, key) => current[key], obj);
 }
 
-var events_all = [];
+const calendar_all = ical();
 
 for (const [lang_code, lang] of Object.entries(i18n)) {
   for (const [i, event] of Object.entries(events)) {
@@ -22,7 +22,7 @@ for (const [lang_code, lang] of Object.entries(i18n)) {
       description: getValueByPath(lang, event.desc),
       url: event.link,
       organizer: 'KT GameJam <info@kit-gamejam.de>',
-      location: '',
+      location: 'TRIANGEL Space https://osm.org/go/0DPvjeSf_?m=',
       timezone: 'Europe/Berlin',
       start: event.start,
       end: event.end,
@@ -30,16 +30,15 @@ for (const [lang_code, lang] of Object.entries(i18n)) {
 
     const calendar = ical();
     calendar.createEvent(event_data);
+    calendar_all.createEvent(event_data);
 
-    events_all.push(event_data);
     fs.writeFileSync(
       `public/events/event-${i}-${lang_code}.ics`,
       calendar.toString(),
     );
   }
-  const calendar = ical({ events: events_all });
   fs.writeFileSync(
     `public/events/events-all-${lang_code}.ics`,
-    calendar.toString(),
+    calendar_all.toString(),
   );
 }
