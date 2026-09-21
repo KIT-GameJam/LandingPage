@@ -31,7 +31,7 @@
       Events
       <a
         class="inline-flex items-center"
-        :href="`webcal://${$config.public.domain}/events/events-all-${$i18n.locale}.ics`"
+        :href="`webcal://${$config.public.domain}/api/event/${$i18n.locale}/all/event.ics`"
       >
         <BellAlertIcon
           class="text-second-600 group-hover:text-second-500 dark:text-second-400 h-8 w-8"
@@ -46,7 +46,7 @@
         v-for="(event, i) in events"
         :title="$t(event.title)"
         :desc="$t(event.desc)"
-        :calendar="`/events/event-${i}-${$i18n.locale}.ics`"
+        :calendar="`/api/event/${$i18n.locale}/${i}/event.ics`"
         :start="event.start"
         :end="event.end"
         :link="event.link"
@@ -162,5 +162,5 @@
 <script setup lang="ts">
 import { BellAlertIcon } from '@heroicons/vue/24/outline';
 import Sponsor from '~/components/sponsor.vue';
-import events from '~/assets/events.json';
+import events from '#shared/events.json';
 </script>

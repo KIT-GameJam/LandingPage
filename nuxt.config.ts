@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 
   i18n: {
     langDir: 'locales',
-    restructureDir: 'app',
+    restructureDir: 'shared',
     vueI18n: 'locales/i18n.config.ts',
     locales: [
       {
