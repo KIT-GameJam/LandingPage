@@ -45,37 +45,30 @@
     "schedule": {
       "events": {
         "0": {
-          "date": "Mi 02.04.25 - Fr 04.04.2025",
           "desc": "Der erste KIT GameJam findet nach der Prüfungsphase am ersten Aprilwochenende statt! Es handelt sich um einen Offline-Jam, bei dem Sie nach Bekanntgabe des Themas 48 Stunden Zeit haben, um ein Spiel zu entwickeln. Wir sorgen für Verpflegung und Räume, um eine angenehme Arbeitsatmosphäre zu schaffen.",
           "title": "🍎 ApfelJam"
         },
         "1": {
-          "date": "Do 19.06.25 - So 22.06.2025",
           "desc": "Zu der GPN 23 in Karlsruhe veranstalten wir die Häckerspiele. Komm gerne an unserem Stand vorbei und entwickle ein Microgame. Diese bündeln wir dann zusammen in ein fertiges Spiel.",
           "title": "📺 Häckerspiele"
         },
         "2": {
-          "date": "Mo 13.10.25 - Mi 15.10.25",
           "desc": "Die zweite KIT GameJam findet nach der Sommer-Klausurenphase im Oktober statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung.",
           "title": "🍐 BirnenJam"
         },
         "3": {
-          "date": "Fr 30.01.26 - So 01.02.26",
           "desc": "Wir veranstalten zum ersten Mal eine eigene Global Game Jam Site. Dank der Förderung durch THE LÄND können wir euch viele Angebote kostenlos bereitstellen. Alle Deatils und die Anmeldung befinden sich auf unserer GGJ-Site Seite.",
           "title": "🌍 GGJ goes THE LÄND: KIT GameJam"
         },
         "4": {
-          "date": "Fr 24.04.26 - So 26.04.26",
           "desc": "Die dritte KIT GameJam findet nach der Winter-Klausurenphase im April statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Alle Deatils und die Anmeldung befinden sich auf der itch.io-Site Seite.",
           "title": "🍊 ClementinenJam"
         },
         "5": {
-          "date": "Do 04.06.26 - So 07.06.26",
           "desc": "Zu der GPN 24 in Karlsruhe veranstalten wir wieder die Häckerspiele. Komm gerne an unserem Stand vorbei und entwickle ein Microgame. Diese bündeln wir dann zusammen in ein fertiges Spiel.",
           "title": "📺 Häckerspiele"
         },
         "6": {
-          "date": "Fr 02.10.26 - So 04.10.26",
           "desc": "Die vierte KIT GameJam findet nach der Sommer-Klausurenphase im Oktober statt! Es wird eine Offline-Jam, in der ihr nach Bekanntgabe des Themas 48 Stunden Zeit für die Entwicklung eines Spiels habt. Wir stellen euch dabei Verpflegung und Räumlichkeiten für eine angenehme Arbeitsatmosphäre zur Verfügung.",
           "title": "🫘 DattelJam"
         }

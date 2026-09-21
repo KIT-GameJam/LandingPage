@@ -27,59 +27,30 @@
 
   <LayoutDividerWave rotate />
   <LayoutSection id="schedule" class="bg-second-100 dark:bg-second-900">
-    <LayoutHeading>Events</LayoutHeading>
+    <LayoutHeading>
+      Events
+      <a
+        class="inline-flex items-center"
+        :href="`webcal://${$config.public.domain}/api/event/${$i18n.locale}/all/event.ics`"
+      >
+        <BellAlertIcon
+          class="text-second-600 group-hover:text-second-500 dark:text-second-400 h-8 w-8"
+          aria-hidden="true"
+        />
+      </a>
+    </LayoutHeading>
     <div
       class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3"
     >
       <CardEvent
-        :title="$t('home.schedule.events.6.title')"
-        :desc="$t('home.schedule.events.6.desc')"
-        :date="$t('home.schedule.events.6.date')"
-        link="https://itch.io/jam/dattel-kit-gamejam"
-      />
-      <CardEvent
-        :title="$t('home.schedule.events.5.title')"
-        :desc="$t('home.schedule.events.5.desc')"
-        :date="$t('home.schedule.events.5.date')"
-        :button_text="$t('home.schedule.view_game')"
-        link="https://kit-gamejam.itch.io/gpn23-jam"
-        past
-      />
-      <CardEvent
-        :title="$t('home.schedule.events.4.title')"
-        :desc="$t('home.schedule.events.4.desc')"
-        :date="$t('home.schedule.events.4.date')"
-        link="https://itch.io/jam/clementine-kit-gamejam/results"
-        past
-      />
-      <CardEvent
-        :title="$t('home.schedule.events.3.title')"
-        :desc="$t('home.schedule.events.3.desc')"
-        :date="$t('home.schedule.events.3.date')"
-        link="https://globalgamejam.org/group/31532/games"
-        past
-      />
-      <CardEvent
-        :title="$t('home.schedule.events.2.title')"
-        :desc="$t('home.schedule.events.2.desc')"
-        :date="$t('home.schedule.events.2.date')"
-        link="https://itch.io/jam/birne-kit-gamejam/results"
-        past
-      />
-      <CardEvent
-        :title="$t('home.schedule.events.1.title')"
-        :desc="$t('home.schedule.events.1.desc')"
-        :date="$t('home.schedule.events.1.date')"
-        :button_text="$t('home.schedule.view_game')"
-        link="https://kit-gamejam.itch.io/gpn23-jam"
-        past
-      />
-      <CardEvent
-        :title="$t('home.schedule.events.0.title')"
-        :desc="$t('home.schedule.events.0.desc')"
-        :date="$t('home.schedule.events.0.date')"
-        link="https://itch.io/jam/apfel-kit-gamejam/results"
-        past
+        v-for="(event, i) in events"
+        :title="$t(event.title)"
+        :desc="$t(event.desc)"
+        :calendar="`/api/event/${$i18n.locale}/${i}/event.ics`"
+        :start="event.start"
+        :end="event.end"
+        :link="event.link"
+        :key="event.title"
       />
     </div>
   </LayoutSection>
@@ -189,5 +160,7 @@
   </LayoutSection>
 </template>
 <script setup lang="ts">
+import { BellAlertIcon } from '@heroicons/vue/24/outline';
 import Sponsor from '~/components/sponsor.vue';
+import events from '#shared/events.json';
 </script>

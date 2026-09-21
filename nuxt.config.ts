@@ -17,7 +17,11 @@ export default defineNuxtConfig({
   site: {
     url: 'https://gamejam.hsg.kit.edu',
   },
-
+  runtimeConfig: {
+    public: {
+      domain: 'gamejam.hsg.kit.edu',
+    },
+  },
   typescript: {
     typeCheck: true,
   },
@@ -41,7 +45,8 @@ export default defineNuxtConfig({
 
   i18n: {
     langDir: 'locales',
-    restructureDir: 'app',
+    restructureDir: 'shared',
+    vueI18n: 'locales/i18n.config.ts',
     locales: [
       {
         code: 'en',
