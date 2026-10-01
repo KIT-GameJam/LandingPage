@@ -199,6 +199,12 @@
         title="ACCESS@KIT"
         has_dark
       />
+      <Sponsor
+        link="https://www.supermagnete.de"
+        name="supermagnete"
+        title="supermagnete"
+        has_dark
+      />
     </div>
   </LayoutSection>
 </template>
