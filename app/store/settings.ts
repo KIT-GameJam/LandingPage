@@ -1,3 +1,5 @@
+import type {} from 'pinia-plugin-persistedstate';
+
 export const settingsStore = defineStore('settings', {
   state: (): SettingsType => {
     const theme = useColorMode();

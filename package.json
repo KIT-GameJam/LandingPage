@@ -23,24 +23,24 @@
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.2.0",
     "@nuxt/fonts": "^0.14.0",
-    "@nuxt/image": "^2.0.0",
-    "@nuxtjs/color-mode": "^4.0.0",
-    "@nuxtjs/i18n": "^10.3.0",
-    "@nuxtjs/sitemap": "^8.0.15",
+    "@nuxt/image": "^2.1.0",
+    "@nuxtjs/color-mode": "^4.0.1",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@nuxtjs/sitemap": "^8.6.1",
     "@nuxtjs/tailwindcss": "^7.0.0-beta.1",
-    "@pinia/nuxt": "^0.11.3",
+    "@pinia/nuxt": "^1.0.2",
     "@tailwindcss/forms": "^0.5.11",
-    "autoprefixer": "^10.5.0",
-    "nuxt": "^4.4.5",
-    "pinia": "^3.0.4",
+    "autoprefixer": "^10.6.1",
+    "nuxt": "^4.5.2",
+    "pinia": "^4.0.3",
     "pinia-plugin-persistedstate": "^4.7.1",
-    "tailwindcss": "^4.3.0",
+    "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "vue-tsc": "^3.2.8"
+    "vue-tsc": "^3.3.11"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^3.2.4",
-    "prettier": "^3.8.3",
-    "prettier-plugin-tailwindcss": "^0.8.0"
+    "@nuxt/devtools": "^3.4.2",
+    "prettier": "^3.9.9",
+    "prettier-plugin-tailwindcss": "^0.8.1"
   }
 }

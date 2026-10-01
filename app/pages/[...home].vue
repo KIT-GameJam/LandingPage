@@ -178,13 +178,27 @@
     </div>
   </LayoutSection>
 
-  <LayoutSection id="schedule">
+  <LayoutSection id="sponsors">
     <LayoutHeading>{{ $t('home.sponsors.title') }}</LayoutHeading>
-    <div
-      class="mt-16 flex flex-col items-center justify-center gap-12 md:flex-row"
-    >
-      <Sponsor link="https://gameforge.com" name="gameforge" has_dark />
-      <Sponsor link="https://energy4u.org/" name="energy4u" has_dark />
+    <div class="mt-16 flex flex-wrap items-center justify-center gap-6">
+      <Sponsor
+        link="https://gameforge.com"
+        name="gameforge"
+        title="Gameforge"
+        has_dark
+      />
+      <Sponsor
+        link="https://energy4u.org/"
+        name="energy4u"
+        title="Energy4u"
+        has_dark
+      />
+      <Sponsor
+        link="https://www.access.kit.edu"
+        name="access_kit"
+        title="ACCESS@KIT"
+        has_dark
+      />
     </div>
   </LayoutSection>
 </template>
