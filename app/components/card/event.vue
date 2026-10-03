@@ -7,9 +7,20 @@
         {{ title }}
       </h3>
       <Badge v-if="past">{{ $t('home.schedule.past') }}</Badge>
+      <a
+        v-else
+        :href="calendar"
+        :title="$t('home.schedule.add_to_calendar')"
+        :aria-label="$t('home.schedule.add_to_calendar')"
+        download
+        class="text-second-600 hover:text-second-500 dark:text-second-400 dark:hover:text-second-300 shrink-0 transition-colors"
+      >
+        <CalendarIcon class="h-6 w-6" aria-hidden="true" />
+      </a>
     </div>
     <p class="text-prime-600 dark:text-prime-400 text-sm font-medium">
-      {{ date }}
+      {{ $d(parseLocalDate(start), 'long') }} -
+      {{ $d(parseLocalDate(end), 'long') }}
     </p>
     <LayoutDividerLine />
     <p class="dark:text-second-100 text-second-900 mb-1 flex-1">
@@ -32,7 +43,10 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
+import { CalendarIcon } from '@heroicons/vue/24/outline';
+import { parseLocalDate } from '#shared/utils/date';
+
+const props = defineProps({
   title: {
     type: String,
     required: true,
@@ -41,7 +55,18 @@ defineProps({
     type: String,
     required: true,
   },
-  date: {
+  /** first day, YYYY-MM-DD */
+  start: {
+    type: String,
+    required: true,
+  },
+  /** last day (inclusive), YYYY-MM-DD */
+  end: {
+    type: String,
+    required: true,
+  },
+  /** URL of the .ics file for this event */
+  calendar: {
     type: String,
     required: true,
   },
@@ -53,9 +78,12 @@ defineProps({
     type: String,
     default: null,
   },
-  past: {
-    type: Boolean,
-    default: false,
-  },
+});
+
+// The last day still counts as "ongoing"; only afterwards the event is past.
+const past = computed(() => {
+  const endOfEvent = parseLocalDate(props.end);
+  endOfEvent.setHours(23, 59, 59, 999);
+  return endOfEvent.getTime() < Date.now();
 });
 </script>

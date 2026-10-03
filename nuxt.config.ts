@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { events, icsPath, locales } from './shared/events';
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   workspaceDir: '.',
@@ -16,6 +18,15 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://gamejam.hsg.kit.edu',
+  },
+
+  nitro: {
+    prerender: {
+      routes: locales.flatMap((locale) => [
+        icsPath(locale, 'all'),
+        ...events.map((event) => icsPath(locale, event.id)),
+      ]),
+    },
   },
 
   typescript: {
@@ -42,6 +53,7 @@ export default defineNuxtConfig({
   i18n: {
     langDir: 'locales',
     restructureDir: 'app',
+    vueI18n: 'locales/i18n.config.ts',
     locales: [
       {
         code: 'en',
