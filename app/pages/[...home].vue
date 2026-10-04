@@ -43,14 +43,14 @@
       class="mt-12 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-3"
     >
       <CardEvent
-        v-for="(event, i) in events"
-        :title="$t(event.title)"
-        :desc="$t(event.desc)"
-        :calendar="`/events/event-${i}-${$i18n.locale}.ics`"
+      v-for="(event, i) in events.sort(({end:a},{end:b}) => Date.parse(b) - Date.parse(a))"
+        :title="$t(`home.schedule.events.${event.id}.title`)"
+        :desc="$t(`home.schedule.events.${event.id}.desc`)"
+        :calendar="`/events/event-${event.id}-${$i18n.locale}.ics`"
         :start="event.start"
         :end="event.end"
         :link="event.link"
-        :key="event.title"
+        :key="event.id"
       />
     </div>
   </LayoutSection>

@@ -71,5 +71,5 @@ const props = defineProps({
   },
 });
 
-const past = computed(() => Date.parse(props.end) < Date.now());
+const past = computed(() => Date.parse(props.end) + 24 * 60 * 60 * 1000 < Date.now());
 </script>
