@@ -35,7 +35,7 @@
         :title="$t('home.schedule.events.6.title')"
         :desc="$t('home.schedule.events.6.desc')"
         :date="$t('home.schedule.events.6.date')"
-        link="https://itch.io/jam/dattel-kit-gamejam/entries"
+        link="https://itch.io/jam/dattel-kit-gamejam/results"
         past
       />
       <CardEvent
